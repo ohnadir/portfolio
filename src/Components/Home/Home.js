@@ -9,8 +9,8 @@ import img from "../../Assets/nadir.JPG"
 const Home = () => {
   return (
     <div name="home" className='h-screen w-full bg-gradient-to-b from-black via-black to-gray-800'>
-        <div className='max-w-screen-lg p-4 mx-auto flex md:flex-row flex-col-reverse  items-center justify-center h-full px-4'>
-            <div className='w-1/2 '>
+        <div className='max-w-screen-lg p-4 mx-auto flex gap-10 md:flex-row flex-col-reverse  items-center justify-center h-full px-4'>
+            <div className='w-full md:w-1/2 '>
                 <h2 className='text-3xl sm:text-4xl text-red-300'>A full stack web developer</h2>
                 <p className='text-gray-500 py-4'>
                    This is Nadir Hossain.I have experience
@@ -29,7 +29,7 @@ const Home = () => {
                     </Link>
                 </div>
             </div>
-            <div className='w-1/2  '>
+            <div className='w-full md:w-1/2 '>
                 <figure className=''>
                     <img className='' src={img} alt=""/>
                 </figure>
