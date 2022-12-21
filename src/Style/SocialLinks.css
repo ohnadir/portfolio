@@ -1,0 +1,21 @@
+.iconItem{
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 160px;
+    height: 56px;
+    padding: 0 16px;
+    margin-right: -100px;
+    transition: all 0.3s ease;
+    gap: 20px;
+}
+/* flex justify-between items-center w-40 h-14 px-4 mr-[-100px] 
+hover:mr-[-10px] hover:rounded-md duration-300 bg-gray-500 */
+
+/* .iconItem:hover{
+    margin-right: -10px;
+} */
+.socialLink li:hover{
+    margin-left: -100px;
+}
