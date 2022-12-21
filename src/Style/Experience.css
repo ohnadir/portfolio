@@ -1,0 +1,17 @@
+.experience{
+    background-color: #101E34;
+}
+.criteria li{
+    position: relative;
+    padding: 10px 0;
+    padding-left: 30px;
+}
+.criteria li::before{
+    content: '▹' ;
+    position: absolute;
+    left: 0;
+    top: 15px;
+    color: #5FF1D0;
+    font-size: 19px;
+    line-height: 12px;
+}

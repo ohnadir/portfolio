@@ -34,7 +34,7 @@ const About = () => {
                 <p>
                     Here are a few technologies I've been working with recently:
                 </p>
-                <div className='experience'>
+                <div className=''>
                     <ul className='skills-list'>
                         <li>JavaScript</li>
                         <li>React</li>

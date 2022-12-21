@@ -1,7 +1,7 @@
 .about{
     background-color: #101E34;
 }
-.experience .skills-list{
+.skills-list{
     display: grid;
     grid-template-columns: repeat(2, minmax(140px, 200px));
     grid-gap: 0 10px;
@@ -10,14 +10,14 @@
     overflow: hidden;
     list-style: none;
 }
-.experience li{
+.skills-list li{
     display: flex;
     align-items: center;
     position: relative;
       margin-bottom: 10px;
       padding-left: 20px;
 }
-.experience li::before{
+.skills-list li::before{
     content: '▹' ;
         position: absolute;
         left: 0;
