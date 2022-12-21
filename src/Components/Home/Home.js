@@ -4,7 +4,7 @@ import React from 'react'
 import { Link } from "react-scroll";
 import { BsArrowRightShort } from "react-icons/bs";
 import '../Home/Home.css'
-import img from "../../Assets/nadir.JPG"
+import img from "../../Assets/nadir.png"
 
 const Home = () => {
   return (
@@ -29,7 +29,7 @@ const Home = () => {
                     </Link>
                 </div>
             </div>
-            <div className='w-full md:w-1/2 '>
+            <div className='w-[50%]'>
                 <figure className=''>
                     <img className='' src={img} alt=""/>
                 </figure>

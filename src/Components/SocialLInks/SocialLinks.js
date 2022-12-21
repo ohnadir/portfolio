@@ -36,7 +36,7 @@ const SocialLinks = () => {
                    <HiOutlineMail size={30} /> Mail 
                 </>
             ),
-            href: "https://mail.google.com/mail/?view=cm&fs=1&to=qx.nadir@gmail.com",
+            href: "https://mail.google.com/mail/?view=cm&fs=1&to=nadirhossain336@gmail.com",
         },
         {
             id: 4,
@@ -87,7 +87,7 @@ const SocialLinks = () => {
                             <a href="https://www.linkedin.com/in/ohnadir/" target='_blank'>
                                 <GrLinkedinOption className='absolute bottom-[-35px] left-3 text-3xl text-white'/>
                             </a>
-                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=qx.nadir@gmail.com" target='_blank'>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=nadirhossain336@gmail.com" target='_blank'>
                                 <HiOutlineMail className='absolute top-[10px] right-[-40px] text-3xl text-white'/>
                             </a>
                             <a href="https://www.facebook.com/qx.nadir/" target='_blank'>
