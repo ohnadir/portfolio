@@ -51,7 +51,7 @@ const SocialLinks = () => {
                 </ul>
             </div>
             <div className=''>
-                <div className='block  md:hidden h-[50px] w-[50px] bg-gray-500 rounded-full flex items-center justify-center p-1 top-[85%] right-10 fixed cursor-pointer'>
+                <div className='hidden h-[50px] w-[50px] bg-gray-500 rounded-full flex items-center justify-center p-1 top-[85%] right-10 fixed cursor-pointer'>
                     <CgOptions className='text-white text-5xl' onClick={()=>setOpen(!open)} />
                     {
                         open && <div className='flex'>

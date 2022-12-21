@@ -42,7 +42,7 @@ const Portfolio = () => {
             name="portfolio"
             className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
         >
-            <div className="max-w-screen-md lg:max-w-screen-lg mx-auto flex flex-col justify-center w-full h-full">
+            <div className="max-w-screen-md lg:max-w-screen-lg px-12 mx-auto flex flex-col justify-center w-full h-full">
                 <div className="pb-8">
                     <p className="text-4xl font-bold text-center inline border-b-4 border-gray-500">
                         Portfolio
@@ -69,7 +69,7 @@ const Portfolio = () => {
                         </div>
                     ))} */}
 
-                    <div className='flex relative items-center '>
+                    <div className='flex relative items-center hidden'>
                         <div className='w-[60%]'>
                             <img src={paralax} className='w-[600px]' alt="" />
                         </div>
@@ -93,8 +93,39 @@ const Portfolio = () => {
                                 </ul>
                             </div>
                             <div className='flex text-[20px] gap-5 items-center justify-end'>
-                                <RiGithubLine/>
-                                <RiExternalLinkFill/>
+                                <a href="https://github.com/ohnadir/portfolio" rel="noreferrer noopener" target='_blank'><RiGithubLine/></a>
+                                <a href="https://portfolio-nadirhossain.vercel.app/" rel="noreferrer noopener" target='_blank'><RiExternalLinkFill/></a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div className='mt-10 relative'>
+                        <div className=''>
+                            <img src={paralax} className="w-[85%]" alt="" />
+                        </div>
+                        <div className='absolute top-0 bg-red-600 h-full py-10'>
+                            <div className='w-[600px] px-6 pt-6'>
+                                <p className='text-[#64ffda] mb-1'>Featured Project</p>
+                                <h1 className='text-2xl'>Halcyon Theme</h1>
+                            </div>
+                            <div className='px-6 py-8'>
+                                <p className=' text-[14px]'>A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.</p>
+                            </div>
+                            <div className='px-6'>
+                                <ul className='flex gap-3  mb-2'>
+                                    <li>Vs Code</li>
+                                    <li>Sublime Text</li>
+                                    <li>Atom</li>
+                                    <li>Atom</li>
+                                    <li>Atom</li>
+                                    <li>Atom</li>
+                                    <li>Atom</li>
+                                </ul>
+                            </div>
+                            <div className='flex text-[20px] px-6 gap-5 items-center '>
+                                <a href="https://github.com/ohnadir/portfolio" rel="noreferrer noopener" target='_blank'><RiGithubLine/></a>
+                                <a href="https://portfolio-nadirhossain.vercel.app/" rel="noreferrer noopener" target='_blank'><RiExternalLinkFill/></a>
                             </div>
                         </div>
                     </div>
