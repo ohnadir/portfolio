@@ -69,7 +69,7 @@ const Portfolio = () => {
                         </div>
                     ))} */}
 
-                    <div className='flex relative items-center hidden'>
+                    <div className='md:flex relative items-center hidden'>
                         <div className='w-[60%]'>
                             <img src={paralax} className='w-[600px]' alt="" />
                         </div>
@@ -100,9 +100,9 @@ const Portfolio = () => {
                     </div>
 
 
-                    <div className='mt-10 relative'>
+                    <div className='mt-10 relative md:hidden'>
                         <div className=''>
-                            <img src={paralax} className="w-[85%]" alt="" />
+                            <img src={paralax}  alt="" />
                         </div>
                         <div className='absolute top-0 bg-red-600 h-full py-10'>
                             <div className='w-[600px] px-6 pt-6'>
