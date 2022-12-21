@@ -1,0 +1,24 @@
+.experience .skills-list{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 200px));
+    grid-gap: 0 10px;
+    padding: 0;
+    margin: 20px 0 0 0;
+    overflow: hidden;
+    list-style: none;
+}
+.experience li{
+    display: flex;
+    align-items: center;
+    position: relative;
+      margin-bottom: 10px;
+      padding-left: 20px;
+}
+.experience li::before{
+    content: '▹' ;
+        position: absolute;
+        left: 0;
+        color: #5FF1D0;
+        font-size: 19px;
+        line-height: 12px;
+}
