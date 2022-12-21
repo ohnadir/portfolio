@@ -1,19 +1,19 @@
 import React from 'react';
-import html from '../../Assets/Experience/html.png';
-import css from '../../Assets/Experience/css.png';
-import javascript from '../../Assets/Experience/javascript.png';
-import reactImage from '../../Assets/Experience/react.png';
-import nextjs from '../../Assets/Experience/nextjs.png';
-import graphql from '../../Assets/Experience/graphql.png';
-import github from '../../Assets/Experience/github.png';
-import tailwind from '../../Assets/Experience/tailwind.png';
-import node from '../../Assets/Experience/node.js.png';
-import mongodb from '../../Assets/Experience/mongodb.png';
-import express from '../../Assets/Experience/express.png';
-import jwt from '../../Assets/Experience/jwt.png';
-import redux from '../../Assets/Experience/redux.png';
-import firebase from '../../Assets/Experience/firebase.png';
-import angular from '../../Assets/Experience/angular.png';
+import html from '../Assets/Experience/html.png';
+import css from '../Assets/Experience/css.png';
+import javascript from '../Assets/Experience/javascript.png';
+import reactImage from '../Assets/Experience/react.png';
+import nextjs from '../Assets/Experience/nextjs.png';
+import graphql from '../Assets/Experience/graphql.png';
+import github from '../Assets/Experience/github.png';
+import tailwind from '../Assets/Experience/tailwind.png';
+import node from '../Assets/Experience/node.js.png';
+import mongodb from '../Assets/Experience/mongodb.png';
+import express from '../Assets/Experience/express.png';
+import jwt from '../Assets/Experience/jwt.png';
+import redux from '../Assets/Experience/redux.png';
+import firebase from '../Assets/Experience/firebase.png';
+import angular from '../Assets/Experience/angular.png';
 
 
 const Experience = () => {

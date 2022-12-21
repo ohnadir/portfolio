@@ -7,7 +7,7 @@ import img from "../../Assets/nadir.png"
 const Home = () => {
   return (
     <div name="home" className='h-screen w-full bg-gradient-to-b from-black via-black to-gray-800'>
-        <div className='max-w-screen-lg p-4 mx-auto flex gap-10 md:flex-row flex-col-reverse  items-center justify-center h-full px-4'>
+        <div className='max-w-screen-lg p-4 mx-auto flex  items-center h-full px-4'>
             <div className='w-full md:w-1/2 '>
                 <h2 className='text-red-300'>Hi, my name is</h2>
                 <h1 className='big-heading'>Nadir Hossain.</h1>
@@ -25,11 +25,6 @@ const Home = () => {
                         </span>
                     </Link>
                 </div>
-            </div>
-            <div className='w-[50%]'>
-                <figure className=''>
-                    <img className='' src={img} alt=""/>
-                </figure>
             </div>
         </div>
     </div>

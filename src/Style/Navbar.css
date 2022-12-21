@@ -1,5 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 .navbar{
+    background-color: rgba(10, 25, 47, 0.85);
+    z-index: 11;
     /* font-family: 'Open Sans', sans-serif; */
 
+}
+
+.logo{
+    color: #64ffda;
+    font-weight: 700;
+    font-size: 18px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid #64ffda;
+    border-radius: 50%;
+    cursor: pointer;
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+}
+.resumeBtn{
+    color: #64ffda;
+    background-color: transparent;
+    border: 1px solid #64ffda;
+    border-radius: 5px;
+    padding: 0.75rem 1rem;
+    font-size: 16px;
+    font-family: var(--font-mono);
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.logo:hover, .resumeBtn:hover{
+    background-color: rgba(100, 255, 218, 0.1);
+}
+.navLinks{
+    padding: 0 16px;
+    cursor: pointer;
+    font-size: 14px;
+    color: white;
+    transition: color 0.3s ease;
+}
+.navLinks:hover{
+    color: #64ffda;
 }
