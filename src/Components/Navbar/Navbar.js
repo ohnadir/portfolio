@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '../../Style/Navbar.css'
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { Link } from "react-scroll";
 
@@ -29,7 +30,7 @@ const Navbar = () => {
         },
     ]
     return (
-        <div className='flex justify-between items-center fixed w-full h-20 px-4 text-white     bg-black'>
+        <div className='navbar flex justify-between items-center fixed w-full h-20 px-4 text-white     bg-black'>
             <div>
                 <h1 className='text-3xl sm:text-3xl  ml-2  text-gray-500'>Nadir Hossain</h1>
             </div>

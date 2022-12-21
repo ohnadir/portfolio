@@ -1,4 +1,5 @@
 import React from 'react';
+import '../Style/About.css'
 const About = () => {
 
     return (
@@ -11,25 +12,43 @@ const About = () => {
             <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
                 <div className="pb-8">
                     <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-                        About
+                        About Me 
                     </p>
                 </div>
 
                 <p className="text-xl mt-20 capitalize">
-                    I have already known HTML5, CSS3, BOOTSTRAP,
-                    TAILWIND,DEISY UI, JAVASCRIPT, ES6, REACT js, REDUX, SASS, NODE
-                    JS,EXPRESS JS,FIREBASE, JWT, JSON, HEROKU, STRIPE, MONGODB, POSTMAN.And now I
-                    am learning Python.
+                    Hello! My name is Nadir and 
+                    I enjoy creating things that live on the internet. 
+                    My interest in web development started back in 2012 
+                    when I decided to try editing custom Tumblr themes — turns out 
+                    hacking together a custom reblog button taught me a lot about 
+                    HTML & CSS!
                 </p>
 
                 <br />
 
                 <p className="text-xl">
-                    I need to get ready for remembering my dream.Program myself for waking
-                    up as soon as me dream what I want to dream.
+                Fast-forward to today, and I’ve had the privilege of working at an 
+                advertising agency, a start-up, a huge corporation, and a student-led design studio. 
+                My main focus these days is building accessible, inclusive products and 
+                digital experiences at <span className='text-[#5FF1D0]'>Upstatement</span> for a variety of clients.
                 </p>
-                <p> I wanna learn full stack web developer and career build up in this
-                    field.</p>
+                <p> I also recently launched a course that covers everything you 
+                    need to build a web app with the Spotify API using Node & React.
+                </p>
+                <p>
+                    Here are a few technologies I've been working with recently:
+                </p>
+                <div className='experience'>
+                    <ul>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>Node.js</li>
+                        <li>TypeScript</li>
+                        <li>Next.js</li>
+                        <li>Passport.js</li>
+                    </ul>
+                </div>
             </div>
         </div>
     );
