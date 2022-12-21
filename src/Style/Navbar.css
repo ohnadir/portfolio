@@ -43,7 +43,15 @@
     cursor: pointer;
     font-size: 14px;
     color: white;
+    counter-increment: item 1;
     transition: color 0.3s ease;
+}
+.navLinks::before{
+    content: "0" counter(item) ".";
+    margin-right: 5px;
+    color: #64ffda;
+    font-size: 14px;
+    text-align: right;
 }
 .navLinks:hover{
     color: #64ffda;

@@ -11,34 +11,34 @@ const Navbar = () => {
     const links = [
         {
             id: 1,
-            link: 'home'
+            link: 'Home'
         },
         {
             id: 2,
-            link: 'about'
+            link: 'About'
         },
         {
             id: 3,
-            link: 'portfolio'
+            link: 'Portfolio'
         },
         {
             id: 4,
-            link: 'experience'
+            link: 'Experience'
         },
         {
             id: 5,
-            link: 'contact'
+            link: 'Contact'
         },
     ]
     return (
-        <div className='navbar flex justify-between items-center fixed w-full h-20 px-4 text-white     bg-black'>
+        <div className='navbar flex justify-between items-center fixed w-full h-20 px-4'>
             <div>
                 <h1 className='logo'>N</h1>
             </div>
             <div className='hidden md:flex items-center justify-center gap-4'>
                 <ul className='flex'>
                     {links.map(({ id, link }) => (
-                        <li key={id} className='navLinks capitalize'>
+                        <li key={id} className='navLinks'>
                             <Link to={link} smooth duration={500}>
                                 {link}
                             </Link>
