@@ -138,7 +138,7 @@ const Experience = () => {
 
     return (
         <div name="experience " className="skills">
-            <div className="max-w-screen-md  lg:max-w-screen-lg px-12 md:px-0  mx-auto text-white">
+            <div className="max-w-screen-md  lg:max-w-screen-lg px-5 sm:px-12 md:px-0  mx-auto text-white">
                 <div className=''>
                     <div>
                         <p className="text-3xl font-bold">Skills</p>
