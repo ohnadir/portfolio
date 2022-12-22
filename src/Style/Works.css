@@ -39,7 +39,9 @@
     align-items: center;
 }
 .header{}
-.ulList{}
+.ulList li{
+    width: fit-content;
+}
 .iconContainer{
 
 }
