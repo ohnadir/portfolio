@@ -5,7 +5,9 @@ import Home from './Components/Home/Home';
 import Navbar from './Components/Navbar';
 import Portfolio from './Components/Portfolio/Portfolio';
 import SocialLinks from './Components/SocialLInks/SocialLinks';
-import Experience from './Components/Experience'
+import Experience from './Components/Experience';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
 function App() {
   return (
@@ -15,7 +17,7 @@ function App() {
       <About></About>
       <Experience/>
       <Portfolio></Portfolio>
-      <Skills></Skills>
+      {/* <Skills></Skills> */}
       <Contact></Contact>
       <SocialLinks></SocialLinks>
 

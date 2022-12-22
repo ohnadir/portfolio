@@ -31,7 +31,7 @@ const Navbar = () => {
         },
     ]
     return (
-        <div className='navbar  fixed w-full  px-4'>
+        <div className='navbar    px-4'>
             <div className=' max-w-7xl mx-auto flex justify-between items-center h-20'>
                 <div>
                     <h1 className='logo'>N</h1>
