@@ -5,8 +5,8 @@ import '../../Style/Home.css'
 
 const Home = () => {
   return (
-    <div name="home" className='home'>
-        <div className=' max-w-screen-md  lg:max-w-screen-lg px-5 sm:px-12 md:px-0 mx-auto flex  items-center h-full'>
+    <div name="home" className='home md:h-screen'>
+        <div className=' max-w-screen-md  lg:max-w-screen-lg px-5 sm:px-12 md:px-0 mx-auto md:flex py-16 md:py-0 items-center h-full'>
             <div className=''>
                 <h2 className='text-[#64ffda] mb-[15px]'>Hi, my name is</h2>
                 <h1 className='big-heading'>Nadir Hossain.</h1>
