@@ -1,6 +1,14 @@
 .about{
     background-color: #101E34;
 }
+.about p{
+    color: #8892B0;
+    font-size: 17px;
+}
+.about ul li{
+    color: #8892B0;
+    font-size: 15px;
+}
 .skills-list{
     display: grid;
     grid-template-columns: repeat(2, minmax(140px, 200px));

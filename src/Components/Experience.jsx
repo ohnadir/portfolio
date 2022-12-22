@@ -18,9 +18,9 @@ const Experience = () => {
                     </div>
                     <div>
                         <h3>Intern <span className='text-[#5FF1D0]'>@ eRevolute</span></h3>
-                        <p>May 2018 - Present</p>
+                        <p className='text-[#8892B0] text-[17px]'>May 2018 - Present</p>
 
-                        <ul className='mt-5 criteria'>
+                        <ul className='mt-5 criteria text-[#8892B0] text-[15px]'>
                             <li>Write modern, performant, maintainable code for a diverse array of client  and internal projects</li>
                             <li>Work with a variety of different languages, platforms, frameworks, and  content management systems such as JavaScript, TypeScript, Gatsby,  React, ---- Craft, WordPress, Prismic, and Netlify</li>
                             <li>Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis</li>
