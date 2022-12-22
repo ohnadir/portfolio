@@ -115,12 +115,30 @@ const Experience = () => {
         autoplay: true,
         speed: 2000,
         autoplaySpeed: 2000,
-        cssEase: "linear"
+        cssEase: "linear",
+        initialSlide: 0,
+        responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 2,
+            initialSlide: 1
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1
+          }
+        }
+      ]
       };
 
     return (
         <div name="experience " className="skills">
-            <div className="max-w-screen-md  lg:max-w-screen-lg  mx-auto text-white">
+            <div className="max-w-screen-md  lg:max-w-screen-lg px-12 md:px-0  mx-auto text-white">
                 <div className=''>
                     <div>
                         <p className="text-3xl font-bold">Skills</p>
