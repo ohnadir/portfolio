@@ -38,3 +38,22 @@
     justify-content: center;
     align-items: center;
 }
+.header{}
+.ulList{}
+.iconContainer{
+
+}
+@media (max-width: 640px) {
+    .overlayImg{
+        height: 300px;
+        /* width: 300px ; */
+    }
+    .header{
+        /* padding-left: -24px; */
+        /* width: fit-content; */
+    }
+    .ulList{}
+    .iconContainer{
+
+}
+}

@@ -87,27 +87,26 @@ const Portfolio = () => {
                         </div>
                         <div className='mt-10 relative md:hidden'>
                             <div className='w-full '>
-                                <img src={paralax} className="w-full"  alt="" />
+                                <img src={paralax} className="w-full overlayImg"  alt="" />
                             </div>
                             <div className='overlayContainer'>
                                 <div>
-                                    <div className=' px-6'>
+                                    <div className=' px-6 header'>
                                         <p className='text-[#64ffda] mb-1'>Featured Project</p>
                                         <h1 className='text-2xl'>Halcyon Theme</h1>
                                     </div>
                                     <div className='px-6 py-3 sm:py-8'>
                                         <p className=' text-[14px]'>A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.</p>
                                     </div>
-                                    <div className='px-6'>
+                                    <div className='px-6 ulList'>
                                         <ul className='flex gap-3  mb-2'>
-                                            <li>Vs Code</li>
-                                            <li>Sublime Text</li>
-                                            <li>Atom</li>
+                                            <li>VsCode</li>
+                                            <li className='max-w-fit'>SublimeText</li>
                                             <li>Atom</li>
                                             <li>Atom</li>
                                         </ul>
                                     </div>
-                                    <div className='flex text-[20px] px-6 gap-5 items-center '>
+                                    <div className='iconContainer flex text-[20px] px-6 gap-5 items-center '>
                                         <a className='icons' href="https://github.com/ohnadir/portfolio" rel="noreferrer noopener" target='_blank'>
                                             <svg  width="18px" height="18px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github">
                                                 <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
@@ -168,7 +167,7 @@ const Portfolio = () => {
                         </div>
                         <div className='mt-10 relative md:hidden'>
                             <div className=''>
-                                <img src={paralax}  alt="" />
+                                <img src={paralax} className="overlayImg" alt="" />
                             </div>
                             <div className='overlayContainer'>
                                 <div>
@@ -245,7 +244,7 @@ const Portfolio = () => {
                         </div>
                         <div className='mt-10 relative md:hidden'>
                             <div className=''>
-                                <img src={paralax}  alt="" />
+                                <img src={paralax} className="overlayImg"  alt="" />
                             </div>
                             <div className='overlayContainer'>
                                 <div>

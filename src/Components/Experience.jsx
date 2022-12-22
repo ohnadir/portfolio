@@ -11,7 +11,7 @@ const Experience = () => {
                     <h1>Where I've Worked</h1>
                 </div>
                 <div className='flex flex-col md:flex-row   gap-10'>
-                    <div>
+                    <div className='hidden md:block'>
                         <p className='text-[#5FF1D0] max-w-fit bg-[#112240] px-2 py-2'>
                             eRevolute
                         </p>

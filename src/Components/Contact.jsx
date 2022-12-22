@@ -18,7 +18,7 @@ const Contact = () => {
     return (
         <div
             name="contact"
-            className="w-full h-screen bg-[#101E34] p-4 text-white"
+            className="w-full py-16 md:py-0 md:h-screen bg-[#101E34] p-4 text-white"
         >
             <div className="flex flex-col  justify-center max-w-screen-md  lg:max-w-screen-lg px-5 sm:px-12 md:px-0 mx-auto h-full">
                 <div className="pb-8">
