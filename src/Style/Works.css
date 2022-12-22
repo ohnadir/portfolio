@@ -24,6 +24,9 @@
 .icons:hover{
     color: #64ffda;   
 }
+.overlay{
+    width: 100%;
+}
 .overlayContainer{
     position: absolute;
     background-color: #10283A;

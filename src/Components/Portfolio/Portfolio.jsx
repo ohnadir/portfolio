@@ -49,19 +49,19 @@ const Portfolio = () => {
                     <div className='project1'>
                         <div className='md:flex relative items-center hidden'>
                             <div className='w-[60%] relative'>
-                                <img src={paralax} className='w-[600px]' alt="" />
+                                <img src={paralax} className='w' alt="" />
                                 <div className='overlay'></div>
                             </div>
                             <div className='w-[60%] z-10 absolute right-0'>
                                 <div className='text-right'>
-                                    <p className='text-[#64ffda] mb-1'>Featured Project</p>
-                                    <h1 className='text-2xl'>Halcyon Theme</h1>
+                                    <p className='text-[#64ffda] mb-1 text-[15px]'>Featured Project</p>
+                                    <h1 className='text-[22px] text-[#d7dce2]'>Halcyon Theme</h1>
                                 </div>
                                 <div className='bg-[#112240] p-6 my-5'>
-                                    <p className='text-right text-[14px]'>A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.</p>
+                                    <p className='text-right text-[#B4C0DE] text-[14px]'>A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.</p>
                                 </div>
                                 <div>
-                                    <ul className='flex gap-3 justify-end mb-2'>
+                                    <ul className='flex gap-3 text-[#B4C0DE] text-[14px] justify-end mb-8'>
                                         <li>Vs Code</li>
                                         <li>Sublime Text</li>
                                         <li>Atom</li>
@@ -128,14 +128,14 @@ const Portfolio = () => {
                             
                             <div className='w-[60%] z-10'>
                                 <div className='text-left'>
-                                    <p className='text-[#64ffda] mb-1'>Featured Project</p>
-                                    <h1 className='text-2xl'>Halcyon Theme</h1>
+                                    <p className='text-[#64ffda] mb-1 text-[15px]'>Featured Project</p>
+                                    <h1 className='text-[22px]'>Halcyon Theme</h1>
                                 </div>
                                 <div className='bg-[#112240] p-6 my-5'>
-                                    <p className='text-left text-[14px]'>A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.</p>
+                                    <p className='text-left text-[#B4C0DE] text-[14px]'>A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.</p>
                                 </div>
                                 <div>
-                                    <ul className='flex gap-3 justify-start mb-2'>
+                                    <ul className='flex gap-3 justify-start text-[#B4C0DE] text-[14px] mb-8'>
                                         <li>Vs Code</li>
                                         <li>Sublime Text</li>
                                         <li>Atom</li>
@@ -160,7 +160,7 @@ const Portfolio = () => {
                             </div>
                             <div className='w-[60%] absolute right-0'>
                                 <div className='relative'>
-                                    <img src={paralax} className='w-[600px] ' alt="" />
+                                    <img src={paralax} className='' alt="" />
                                     <div className='overlay'></div>
                                 </div>
                             </div>
@@ -207,19 +207,19 @@ const Portfolio = () => {
                     <div className='project3'>
                         <div className='md:flex relative items-center hidden'>
                             <div className='w-[60%] relative'>
-                                <img src={paralax} className='w-[600px] ' alt="" />
+                                <img src={paralax} className='' alt="" />
                                 <div className='overlay'></div>
                             </div>
                             <div className='w-[60%] z-10 absolute right-0'>
-                                <div className='text-right'>
-                                    <p className='text-[#64ffda] mb-1'>Featured Project</p>
-                                    <h1 className='text-2xl'>Halcyon Theme</h1>
+                            <div className='text-right'>
+                                    <p className='text-[#64ffda] mb-1 text-[15px]'>Featured Project</p>
+                                    <h1 className='text-[22px]'>Halcyon Theme</h1>
                                 </div>
                                 <div className='bg-[#112240] p-6 my-5'>
-                                    <p className='text-right text-[14px]'>A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.</p>
+                                    <p className='text-right text-[#B4C0DE] text-[14px]'>A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.</p>
                                 </div>
                                 <div>
-                                    <ul className='flex gap-3 justify-end mb-2'>
+                                    <ul className='flex gap-3 text-[#B4C0DE] text-[14px] justify-end mb-8'>
                                         <li>Vs Code</li>
                                         <li>Sublime Text</li>
                                         <li>Atom</li>

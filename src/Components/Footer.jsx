@@ -47,7 +47,7 @@ const Footer = () => {
                 </div>
             </div>
         <div className='text-center text-[14px]'>
-            <p>Designed & Built by Nadir Hossain</p>
+            <p className='text-[#8892B0]'>Designed & Built by Nadir Hossain</p>
         </div>
     </div>
   )
