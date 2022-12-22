@@ -19,12 +19,12 @@ const Contact = () => {
             name="contact"
             className="w-full h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white"
         >
-            <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
+            <div className="flex flex-col  justify-center max-w-screen-md  lg:max-w-screen-lg px-5 sm:px-12 md:px-0 mx-auto h-full">
                 <div className="pb-8">
-                    <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-                        Cotact
+                    <p className="text-2xl font-bold text-center">
+                    Get In Touch
                     </p>
-                    <p className="py-6">Submit the form below to get in touch with me</p>
+                    <p className='text-center py-5'>Although I’m not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!</p>
                 </div>
 
                 <div className=" flex justify-center items-center">

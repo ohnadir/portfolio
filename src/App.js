@@ -8,6 +8,7 @@ import SocialLinks from './Components/SocialLInks/SocialLinks';
 import Experience from './Components/Experience';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
       <Skills></Skills>
       <Contact></Contact>
       <SocialLinks></SocialLinks>
-
+      <Footer/>
     </div>
   );
 }
