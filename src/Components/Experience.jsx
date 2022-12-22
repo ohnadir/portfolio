@@ -4,15 +4,15 @@ import '../Style/Experience.css'
 const Experience = () => {
   return (
     <div className='experience'>
-        <div className='max-w-screen-md lg:max-w-screen-lg mx-auto flex text-white  items-center h-screen'>
+        <div className='max-w-screen-md  lg:max-w-screen-lg px-5 sm:px-12 md:px-0 mx-auto flex text-white  items-center h-screen'>
             <div>
                 <div className='flex gap-2 mb-10'>
                     <span className='text-[#5FF1D0]'>02.</span>
                     <h1>Where I've Worked</h1>
                 </div>
-                <div className='flex gap-10'>
+                <div className='flex flex-col md:flex-row   gap-10'>
                     <div>
-                        <p className='text-[#5FF1D0] bg-[#112240] px-2 py-2'>
+                        <p className='text-[#5FF1D0] max-w-fit bg-[#112240] px-2 py-2'>
                             eRevolute
                         </p>
                     </div>
