@@ -14,6 +14,8 @@ import jwt from '../Assets/Experience/jwt.png';
 import redux from '../Assets/Experience/redux.png';
 import firebase from '../Assets/Experience/firebase.png';
 import angular from '../Assets/Experience/angular.png';
+import '../Style/Skills.css';
+import Slider from "react-slick";
 
 
 const Experience = () => {
@@ -104,30 +106,36 @@ const Experience = () => {
             style: "shadow-[#c3002e]",
         },
     ];
+    const settings = {
+        arrow:false,
+        dots: false,
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        speed: 2000,
+        autoplaySpeed: 2000,
+        cssEase: "linear"
+      };
 
     return (
-        <div
-            name="experience"
-            className="bg-gradient-to-b from-gray-800 to-black w-full text-white md:h-screen"
-        >
-            <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
-                <div>
-                    <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
-                        Experience
-                    </p>
-                    <p className="py-6">These are the technologies I've worked with</p>
-                </div>
+        <div name="experience " className="skills">
+            <div className="max-w-screen-md  lg:max-w-screen-lg  mx-auto text-white">
+                <div className=''>
+                    <div>
+                        <p className="text-3xl font-bold">Skills</p>
+                    </div>
 
-                <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
-                    {techs.map(({ id, src, title, style }) => (
-                        <div
-                            key={id}
-                            className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
-                        >
-                            <img src={src} alt="" className="w-20 mx-auto" />
-                            <p className="mt-4">{title}</p>
-                        </div>
-                    ))}
+                    <div className="overflow-x-hidden py-20">
+                        <Slider {...settings}>
+                            {techs.map(({ id, src, title, style }) => (
+                                <div key={id} className={style}>
+                                    <img src={src} alt="" className="w-16 mx-auto" />
+                                    <p className="mt-4 text-center">{title}</p>
+                                </div>
+                            ))}
+                        </Slider>
+                    </div>
                 </div>
             </div>
         </div>
