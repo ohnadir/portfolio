@@ -45,7 +45,7 @@ const About = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className='w-[40%] mb-8 md:mb-0 h-fit relative flex border mx-auto flex-col gap-10'>
+                    <div className='w-[40%] mb-8 md:mb-0 h-fit relative flex mx-auto flex-col gap-10'>
                         <img src={nadir} className="z-10" alt="" />
                         <div className='borderOverlay'>
                         </div>
