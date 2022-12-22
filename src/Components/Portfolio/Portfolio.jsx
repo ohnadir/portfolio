@@ -42,7 +42,7 @@ const Portfolio = () => {
         <div name="portfolio" className="worksSection ">
             <div className="max-w-screen-md lg:max-w-screen-lg  mx-auto px-12 md:px-0">
                 <div className="pb-12">
-                    <p className="text-xl font-bold heading">Some Things I’ve Built</p>
+                    <p className=" font-bold heading text-[24px]">Some Things I’ve Built</p>
                 </div>
 
                 <div className="grid grid-cols-1 md:gap-[150px] pb-[100px]">

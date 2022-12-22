@@ -6,9 +6,9 @@ const Experience = () => {
     <div className='experience'>
         <div className='max-w-screen-md  lg:max-w-screen-lg px-5 sm:px-12 md:px-0 py-16 md:py-0 mx-auto flex text-white  items-center md:h-screen'>
             <div>
-                <div className='flex gap-2 mb-10'>
-                    <span className='text-[#5FF1D0]'>02.</span>
-                    <h1>Where I've Worked</h1>
+                <div className='flex gap-2 mb-10 items-center'>
+                    <span className='text-[#5FF1D0] text-[24px]'>02.</span>
+                    <h1 className='text-[24px]'>Where I've Worked</h1>
                 </div>
                 <div className='flex flex-col md:flex-row   gap-10'>
                     <div className='hidden md:block'>

@@ -34,7 +34,7 @@
         line-height: 12px;
 }
 .aboutName{
-    color: #CCD6F6;
-    font-size: 24px;
+    color: white !important;
+    font-size: 26px !important;
     font-weight: bold;
 }
