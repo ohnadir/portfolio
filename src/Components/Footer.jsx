@@ -13,12 +13,12 @@ const Footer = () => {
         },
         {
             id: 1,
-            child: <TiSocialLinkedin size={25} />,
+            child: <TiSocialLinkedin size={28} />,
             href: "https://www.linkedin.com/in/ohnadir/"
         },
         {
             id: 3,
-            child: <HiOutlineMail size={20} />,
+            child: <HiOutlineMail size={23} />,
             href: "https://mail.google.com/mail/?view=cm&fs=1&to=nadirhossain336@gmail.com",
         },
         {
@@ -37,7 +37,7 @@ const Footer = () => {
                             <li key={id} className= "">
                                 <a
                                     href={href}
-                                    className=" text-white hover:text-[#64ffda] transition-all"
+                                    className=" text-[#A8B2D1] hover:text-[#64ffda] transition-all"
                                     download={download}
                                     target="_blank"
                                     rel="noreferrer noopener">{child}</a>

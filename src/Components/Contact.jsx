@@ -23,7 +23,7 @@ const Contact = () => {
             name="contact"
             className="w-full pb-16  md:py-0 md:h-screen bg-[#101E34] pt-28  text-white"
         >
-            <div className="flex flex-col  justify-center max-w-screen-md  lg:max-w-screen-lg px-10 sm:px-12 md:px-0 mx-auto h-full">
+            <div className="flex flex-col justify-center max-w-screen-md  lg:max-w-screen-lg px-5 sm:px-12  mx-auto h-full">
                 <div className="pb-8">
                     <p className="text-2xl font-bold text-center">
                     Get In Touch

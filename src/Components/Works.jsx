@@ -8,7 +8,7 @@ const Works = () => {
 
     return (
         <div name="works" className="worksSection pt-28">
-            <div className="max-w-screen-md lg:max-w-screen-lg  mx-auto px-12 md:px-0">
+            <div className="max-w-screen-md lg:max-w-screen-lg  mx-auto px-5 sm:px-12">
                 <div className="pb-4">
                     <p className=" font-bold heading text-[24px]">Some Things I’ve Built</p>
                 </div>
@@ -70,14 +70,14 @@ const Works = () => {
                                         </p>
                                     </div>
                                     <div className='px-6  pb-2 ulList'>
-                                        <ul className='flex gap-2  mb-2'>
+                                        <ul className='flex flex-wrap leading-[14px] gap-2  mb-2'>
                                             <li>React.js</li>
                                             <li>Node.js</li>
                                             <li>Redux</li>
                                             <li>MongoDB</li>
                                         </ul>
                                     </div>
-                                    <div className='iconContainer flex text-[20px] px-6 gap-5 items-center '>
+                                    <div className='iconContainer flex text-[20px] px-6 gap-5 items-center pt-5'>
                                         <a className='icons' href="https://github.com/ohnadir/portfolio" rel="noreferrer noopener" target='_blank'>
                                             <svg  width="18px" height="18px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github">
                                                 <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
@@ -152,14 +152,14 @@ const Works = () => {
                                         </p>
                                     </div>
                                     <div className='px-6 ulList'>
-                                        <ul className='flex gap-3  mb-2'>
+                                        <ul className='flex flex-wrap leading-[14px] gap-3  mb-2'>
                                             <li>React.js</li>
                                             <li>Node.js</li>
                                             <li>Redux</li>
                                             <li>MongoDB</li>
                                         </ul>
                                     </div>
-                                    <div className='iconContainer flex text-[20px] px-6 gap-5 items-center '>
+                                    <div className='iconContainer flex text-[20px] px-6 gap-5 items-center pt-5'>
                                         <a className='icons' href="https://github.com/ohnadir/portfolio" rel="noreferrer noopener" target='_blank'>
                                             <svg  width="18px" height="18px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github">
                                                 <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
@@ -230,14 +230,16 @@ const Works = () => {
                                         </p>
                                     </div>
                                     <div className='px-6 ulList'>
-                                        <ul className='flex gap-3  mb-2'>
+                                        <ul className='flex flex-wrap leading-[14px] gap-3  mb-2'>
                                             <li>React.js</li>
                                             <li>Node.js</li>
                                             <li>Redux</li>
                                             <li>MongoDB</li>
+                                            <li>MongoDB</li>
+                                            <li>MongoDB</li>
                                         </ul>
                                     </div>
-                                    <div className='iconContainer flex text-[20px] px-6 gap-5 items-center '>
+                                    <div className='iconContainer flex text-[20px] px-6 gap-5 items-center pt-5'>
                                         <a className='icons' href="https://github.com/ohnadir/portfolio" rel="noreferrer noopener" target='_blank'>
                                             <svg  width="18px" height="18px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github">
                                                 <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
