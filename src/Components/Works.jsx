@@ -9,7 +9,7 @@ const Works = () => {
     return (
         <div name="works" className="worksSection pt-28">
             <div className="max-w-screen-md lg:max-w-screen-lg  mx-auto px-5 sm:px-12">
-                <div className="pb-4">
+                <div className="pb-10">
                     <p className=" font-bold heading text-[24px]">Some Things I’ve Built</p>
                 </div>
 
