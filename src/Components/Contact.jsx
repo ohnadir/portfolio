@@ -1,20 +1,23 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import '../Style/Contact.css'
 
 const Contact = () => {
     const form = useRef();
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+    const sendEmail = (e) => {
+        e.preventDefault();
 
-    emailjs.sendForm('service_wdm0m0k', 'template_ayhu5jo', form.current, 'Yj-98tghvdyFwPy1I')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
-  };
+        emailjs.sendForm('service_xnetf2c', 'template_d9b3uug', form.current, 'eDYPKkkHpzrxJc33H')
+            .then((result) => {
+                if(result.text ==="OK"){
+                    e.target.reset()
+                }
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+    };
     return (
         <div
             name="contact"
@@ -33,12 +36,12 @@ const Contact = () => {
                         ref={form} onSubmit={sendEmail}
                         className=" flex flex-col w-full md:w-1/2">
                         <input
-                            type="text" name="user_name"
+                            type="text" name="name"
                             placeholder="Enter your name"
                             className="p-2 bg-transparent text-white"
                         />
                         <input
-                            type="email" name="user_email"
+                            type="email" name="email"
                             placeholder="Enter your email"
                             className="my-4 p-2 bg-transparent"
                         />
