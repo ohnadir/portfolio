@@ -1,45 +1,13 @@
 import React from 'react';
-import arrayDestruct from '../../Assets/arrayDestruct.jpeg';
-import installNode from '../../Assets/installNode.jpeg';
-import navbar from '../../Assets/navbar.jpeg';
-import reactParallax from '../../Assets/reactParallax.jpeg';
-import reactSmooth from '../../Assets/reactSmooth.jpeg';
-import reactWeather from '../../Assets/reactWeather.jpeg'
-import paralax from '../../Assets/paralax.jpg';
-import { RiExternalLinkFill, RiGithubLine } from 'react-icons/ri';
-import '../../Style/Works.css';
+import paralax from '../Assets/paralax.jpg';
+import '../Style/Works.css';
 
-const Portfolio = () => {
+const Works = () => {
 
-    const portfolios = [
-        {
-            id: 1,
-            src: arrayDestruct,
-        },
-        {
-            id: 2,
-            src: reactParallax,
-        },
-        {
-            id: 3,
-            src: navbar,
-        },
-        {
-            id: 4,
-            src: reactSmooth,
-        },
-        {
-            id: 5,
-            src: installNode,
-        },
-        {
-            id: 6,
-            src: reactWeather,
-        },
-    ];
+
 
     return (
-        <div name="portfolio" className="worksSection pt-10">
+        <div name="works" className="worksSection pt-10">
             <div className="max-w-screen-md lg:max-w-screen-lg  mx-auto px-12 md:px-0">
                 <div className="pb-4">
                     <p className=" font-bold heading text-[24px]">Some Things I’ve Built</p>
@@ -291,4 +259,4 @@ const Portfolio = () => {
     );
 };
 
-export default Portfolio;
+export default Works;

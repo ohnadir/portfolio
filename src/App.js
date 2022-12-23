@@ -3,7 +3,7 @@ import Contact from './Components/Contact';
 import Skills from './Components/Skills';
 import Home from './Components/Home/Home';
 import Navbar from './Components/Navbar';
-import Portfolio from './Components/Portfolio/Portfolio';
+import Works from './Components/Works';
 import SocialLinks from './Components/SocialLInks/SocialLinks';
 import Experience from './Components/Experience';
 import "slick-carousel/slick/slick.css"; 
@@ -17,7 +17,7 @@ function App() {
       <Home></Home>
       <About></About>
       <Experience/>
-      <Portfolio></Portfolio>
+      <Works></Works>
       <Skills></Skills>
       <Contact></Contact>
       <SocialLinks></SocialLinks>

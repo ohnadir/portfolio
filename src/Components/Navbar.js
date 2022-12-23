@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../Style/Navbar.css'
-import { FaBars, FaTimes } from 'react-icons/fa';
+import { FaTimes } from 'react-icons/fa';
 import { BiMenuAltRight } from 'react-icons/bi';
 import { Link } from "react-scroll";
 
@@ -19,7 +19,7 @@ const Navbar = () => {
         },
         {
             id: 3,
-            link: 'portfolio'
+            link: 'works'
         },
         {
             id: 4,
@@ -35,7 +35,7 @@ const Navbar = () => {
         }
     ]
     return (
-        <div className='navbar    px-4'>
+        <div className='navbar  fixed w-full top-0  px-4'>
             <div className=' max-w-7xl mx-auto flex justify-between items-center h-20'>
                 <div>
                     <h1 className='logo'>N</h1>

@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 .navbar{
-    /* background-color: rgba(10, 25, 47, 0.85); */
     background-color: #101E34;
     z-index: 11;
-    /* font-family: 'Open Sans', sans-serif; */
 
 }
 
@@ -48,7 +46,7 @@
     transition: color 0.3s ease;
 }
 .navLinks::before{
-    content: "0" counter(item) ".";
+    /* content: "0" counter(item) "."; */
     margin-right: 5px;
     color: #64ffda;
     font-size: 14px;
