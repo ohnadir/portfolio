@@ -36,7 +36,7 @@ const Navbar = () => {
     return (
         <div className='navbar  fixed w-full top-0  '>
             <div className=' max-w-7xl mx-auto flex justify-between items-center h-20'>
-                <div>
+                <div className='pl-5'>
                     <h1 className='logo'>N</h1>
                 </div>
                 <div className='hidden md:flex items-center justify-center gap-4'>
