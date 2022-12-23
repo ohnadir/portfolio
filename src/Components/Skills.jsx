@@ -137,7 +137,7 @@ const Experience = () => {
       };
 
     return (
-        <div name="skills" className="skills md:pt-28">
+        <div name="skills" className="skills pt-28">
             <div className="max-w-screen-md   lg:max-w-screen-lg px-10 sm:px-12 md:px-0  mx-auto text-white">
                 <div className=''>
                     <div>
@@ -149,7 +149,7 @@ const Experience = () => {
                             {techs.map(({ id, src, title, style }) => (
                                 <div key={id} className={style}>
                                     <img src={src} alt="" className="w-16 mx-auto" />
-                                    <p className="mt-4 text-center">{title}</p>
+                                    <p className="mt-4 text-center text-[#8892B0]">{title}</p>
                                 </div>
                             ))}
                         </Slider>

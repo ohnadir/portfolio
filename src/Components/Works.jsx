@@ -7,7 +7,7 @@ const Works = () => {
 
 
     return (
-        <div name="works" className="worksSection pt-10">
+        <div name="works" className="worksSection pt-28">
             <div className="max-w-screen-md lg:max-w-screen-lg  mx-auto px-12 md:px-0">
                 <div className="pb-4">
                     <p className=" font-bold heading text-[24px]">Some Things I’ve Built</p>
