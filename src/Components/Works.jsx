@@ -13,7 +13,7 @@ const Works = () => {
                     <p className=" font-bold heading text-[24px]">Some Things I’ve Built</p>
                 </div>
 
-                <div className="grid grid-cols-1 md:gap-[150px] pb-[100px]">
+                <div className="grid grid-cols-1 md:gap-[150px] pb-[50px]">
                     <div className='project1'>
                         <div className='md:flex relative items-center hidden'>
                             <div className='w-[60%] relative'>
@@ -254,6 +254,7 @@ const Works = () => {
                         </div>
                     </div>
                 </div>
+                <div className='seeMoreBtn pb-[100px]'>See more</div>
             </div>
         </div>
     );

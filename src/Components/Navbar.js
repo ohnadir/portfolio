@@ -5,7 +5,6 @@ import { BiMenuAltRight } from 'react-icons/bi';
 import { Link } from "react-scroll";
 
 const Navbar = () => {
-
     const [nav, setNav] = useState(false);
 
     const links = [
