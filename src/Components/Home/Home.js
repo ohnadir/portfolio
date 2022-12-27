@@ -10,7 +10,7 @@ const Home = () => {
             <div className=''>
                 <h2 className='text-[#64ffda] mb-[15px]'>Hi, my name is</h2>
                 <h1 className='big-heading'>Nadir Hossain.</h1>
-                <h3 class="big-heading2">I build things for the web.</h3>
+                <h3 className="big-heading2">I build things for the web.</h3>
                 <p className='text-[#8892B0] py-4 text-[17px]'>
                     I'm a Fullstack developer specializing in building (and occasionally <br className='hidden md:block' /> designing) exceptional digital experiences. 
                     Currently, I’m focused on <br className='hidden md:block'/> building accessible, 
