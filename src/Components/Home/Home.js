@@ -12,9 +12,9 @@ const Home = () => {
                 <h1 className='big-heading'>Nadir Hossain.</h1>
                 <h3 className="big-heading2">I build things for the web.</h3>
                 <p className='text-[#8892B0] py-4 text-[17px]'>
-                    I'm a Fullstack developer specializing in building (and occasionally <br className='hidden md:block' /> designing) exceptional digital experiences. 
+                    I'm a Fullstack developer specializing in building (and occasionally <br className='hidden md:block' /> front-end) exceptional digital experiences. 
                     Currently, I’m focused on <br className='hidden md:block'/> building accessible, 
-                    e-commerce products at <span className='text-[#5FF1D0]'>Walmart</span>.
+                    e-commerce web application like <span className='text-[#5FF1D0]'>Walmart</span>.
                 </p>
                 <div>
                     <Link
