@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import '../Style/Navbar.css'
 import { FaTimes } from 'react-icons/fa';
+import { MdClose } from 'react-icons/md';
 import { BiMenuAltRight } from 'react-icons/bi';
 import { Link } from "react-scroll";
 import { Drawer } from 'antd';
@@ -72,13 +73,13 @@ const Navbar = () => {
                             
                         
                         <div className=' flex items-center text-[#64ffda] justify-end absolute top-8 right-8 '>
-                            <FaTimes onClick={() => setOpen(false)} size={35} />
+                            <MdClose className='cursor-pointer' onClick={() => setOpen(false)} size={35} />
                         </div>
                         <div className='flex flex-col mobile items-center justify-center gap-4'>
                             <ul className='flex flex-col items-center mb-0'>
                                 {links.map(({ id, link }) => (
-                                    <li key={id} className='navLinks capitalize duration-200'>
-                                        <Link  to={link} smooth duration={500}>
+                                    <li key={id} className='navLinks my-5  capitalize duration-200'>
+                                        <Link  to={link} className="mobileLinks" smooth duration={500}>
                                             {link}
                                         </Link>
                                     </li>

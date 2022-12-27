@@ -142,7 +142,7 @@ const Experience = () => {
                 <div className=''>
                     <div className='flex gap-2 items-center'>
                         <span className='text-[#5FF1D0] text-[24px]'>04.</span>
-                        <h1 className='text-[24px] text-[#ccd6f6]'>Skills</h1>
+                        <h1 className='text-[24px] text-[#ccd6f6] m-0'>Skills</h1>
                     </div>
 
                     <div className="overflow-x-hidden py-20">

@@ -26,7 +26,7 @@ const Contact = () => {
             <div className="flex flex-col justify-center max-w-screen-md  lg:max-w-screen-lg px-5 sm:px-12  mx-auto h-full">
             <div className='flex gap-2  items-center'>
                     <span className='text-[#5FF1D0] text-[24px]'>05.</span>
-                    <h1 className='text-[24px] text-[#ccd6f6]'>Get in touch</h1>
+                    <h1 className='text-[24px] text-[#ccd6f6] m-0'>Get in touch</h1>
                 </div>
                 <p className='text-center text-[#8892B0] pt-5 mb-10'>Although I’m not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!</p>
 

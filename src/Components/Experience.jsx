@@ -8,7 +8,7 @@ const Experience = () => {
             <div>
                 <div className='flex gap-2 mb-10 items-center'>
                     <span className='text-[#5FF1D0] text-[24px]'>02.</span>
-                    <h1 className='text-[24px] text-[#ccd6f6]'>Where I've Worked</h1>
+                    <h1 className='text-[24px] text-[#ccd6f6] m-0'>Where I've Worked</h1>
                 </div>
                 <div className='flex flex-col md:flex-row   gap-10'>
                     <div className='hidden md:block'>

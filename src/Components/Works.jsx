@@ -11,7 +11,7 @@ const Works = () => {
             <div className="max-w-screen-md lg:max-w-screen-lg  mx-auto px-5 sm:px-12">
                 <div className='flex gap-2 mb-10 items-center'>
                     <span className='text-[#5FF1D0] text-[24px]'>03.</span>
-                    <h1 className='text-[24px] text-[#ccd6f6]'>Some Things I've Built</h1>
+                    <h1 className='text-[24px] text-[#ccd6f6] m-0'>Some Things I've Built</h1>
                 </div>
 
                 <div className="grid grid-cols-1 md:gap-[150px] pb-[50px]">
