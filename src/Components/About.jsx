@@ -14,7 +14,7 @@ const About = () => {
                 </div>
                 <div className='flex flex-col-reverse md:flex-row gap-10'>
                     <div className='w-full md:w-[60%]'>
-                        <p className=" capitalize">
+                        <p className="">
                             Hello! My name is Nadir and 
                             I enjoy creating things that live on the internet. 
                             My interest in web development started back in 2020 
