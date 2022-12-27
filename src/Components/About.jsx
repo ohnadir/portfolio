@@ -1,7 +1,6 @@
 import React from 'react';
 import '../Style/About.css';
 import nadir from '../Assets/Experience/nadir.jpg'
-import overlay from '../Assets/Experience/overlayR.png'
 const About = () => {
 
     return (
@@ -9,8 +8,9 @@ const About = () => {
         <div name="about" className="about w-full  md:h-screen pb-16 pt-28 md:py-0  text-white">
             
             <div className="max-w-screen-md  lg:max-w-screen-lg px-5 sm:px-12  mx-auto flex flex-col justify-center w-full h-full">
-                <div className="pb-8">
-                    <p className="aboutName">About Me</p>
+                <div className='flex gap-2 mb-10 items-center'>
+                    <span className='text-[#5FF1D0] text-[24px]'>01.</span>
+                    <h1 className='text-[24px] text-[#ccd6f6]'>About me</h1>
                 </div>
                 <div className='flex flex-col-reverse md:flex-row gap-10'>
                     <div className='w-full md:w-[60%]'>

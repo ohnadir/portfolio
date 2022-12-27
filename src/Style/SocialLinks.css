@@ -12,7 +12,7 @@
     transform: translateY(-3px);
 }
 .socialLink a{
-    color: white;
+    color: #A8B2D1;
     transition: color 0.3s ease;
 }
 .socialLink a:hover{

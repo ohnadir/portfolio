@@ -41,7 +41,7 @@
     padding: 0 16px;
     cursor: pointer;
     font-size: 14px;
-    color: white;
+    color: #ccd6f6;
     counter-increment: item 1;
     transition: color 0.3s ease;
 }

@@ -18,6 +18,7 @@
 }
 
 .icons{
+    color: #ccd6f6;
     width: fit-content;
     transition: all 0.2s ease;
 }

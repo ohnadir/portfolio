@@ -1,35 +1,33 @@
 import React, { useState } from 'react';
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
 import { CgOptions } from "react-icons/cg";
 import { FaFacebookF } from "react-icons/fa";
 import { GrLinkedinOption } from "react-icons/gr";
 import { TbBrandGithub } from "react-icons/tb";
-import { TiSocialLinkedin } from "react-icons/ti";
-import '../../Style/SocialLinks.css'
-
+import { BiUser } from "react-icons/bi";
+import '../../Style/SocialLinks.css';
 const SocialLinks = () => {
     const [open, setOpen] = useState(false)
     const links = [
         {
-            id: 2,
-            child: <TbBrandGithub size={25} />,
+            id: 1,
+            child: <TbBrandGithub size={22} />,
             href: "https://github.com/ohnadir",
         },
         {
-            id: 1,
-            child: <TiSocialLinkedin size={30} />,
+            id: 2,
+            child: <GrLinkedinOption size={22} />,
             href: "https://www.linkedin.com/in/ohnadir/"
         },
         {
             id: 3,
-            child: <HiOutlineMail size={25} />,
+            child: <HiOutlineMail size={22} />,
             href: "https://mail.google.com/mail/?view=cm&fs=1&to=nadirhossain336@gmail.com",
         },
         {
             id: 4,
-            child: <BsFillPersonLinesFill size={25} />,
+            child: <BiUser size={22} />,
             href: "/nadirResume2.pdf",
             download: true,
         },
@@ -42,7 +40,7 @@ const SocialLinks = () => {
                         <li key={id} className= "iconItem">
                             <a
                                 href={href}
-                                className="flex justify-between items-center w-full text-white"
+                                className="flex justify-between items-center w-full text-[#A8B2D1]"
                                 download={download}
                                 target="_blank"
                                 rel="noreferrer noopener">{child}</a>

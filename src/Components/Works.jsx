@@ -9,8 +9,9 @@ const Works = () => {
     return (
         <div name="works" className="worksSection pt-28">
             <div className="max-w-screen-md lg:max-w-screen-lg  mx-auto px-5 sm:px-12">
-                <div className="pb-10">
-                    <p className=" font-bold heading text-[24px]">Some Things I’ve Built</p>
+                <div className='flex gap-2 mb-10 items-center'>
+                    <span className='text-[#5FF1D0] text-[24px]'>03.</span>
+                    <h1 className='text-[24px] text-[#ccd6f6]'>Some Things I've Built</h1>
                 </div>
 
                 <div className="grid grid-cols-1 md:gap-[150px] pb-[50px]">

@@ -140,8 +140,9 @@ const Experience = () => {
         <div name="skills" className="skills pt-28">
             <div className="max-w-screen-md   lg:max-w-screen-lg px-5 sm:px-12   mx-auto text-white">
                 <div className=''>
-                    <div>
-                        <p className="text-3xl font-bold">Skills</p>
+                    <div className='flex gap-2 items-center'>
+                        <span className='text-[#5FF1D0] text-[24px]'>04.</span>
+                        <h1 className='text-[24px] text-[#ccd6f6]'>Skills</h1>
                     </div>
 
                     <div className="overflow-x-hidden py-20">
