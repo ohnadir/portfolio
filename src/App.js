@@ -9,6 +9,7 @@ import Experience from './Components/Experience';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import Footer from './Components/Footer';
+import 'antd/dist/reset.css';
 
 function App() {
   return (
