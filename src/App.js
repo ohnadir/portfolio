@@ -10,6 +10,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Footer from './Components/Footer';
 import 'antd/dist/reset.css';
+import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer } from 'react-toastify';
 
 function App() {
   return (
@@ -23,6 +25,7 @@ function App() {
       <Contact></Contact>
       <SocialLinks></SocialLinks>
       <Footer/>
+      <ToastContainer/>
     </div>
   );
 }

@@ -1,14 +1,28 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
-import '../Style/Contact.css'
+import '../Style/Contact.css';
+import {  toast } from 'react-toastify';
 
+const initialItem = {
+    name: '',
+    email: '',
+    message: ''
+}
 const Contact = () => {
+    const [item, setItem]= useState([initialItem]);
     const form = useRef();
-
+    const handleChange = (e)=>{
+        setItem( (prev)=> ({...prev, [e.target.name]: e.target.value}))
+    }
+    
     const sendEmail = (e) => {
         e.preventDefault();
-
-        emailjs.sendForm('service_xnetf2c', 'template_d9b3uug', form.current, 'eDYPKkkHpzrxJc33H')
+        if(!item.name || !item.email || !item.message){
+            toast.error("Fill the all field", {
+                autoClose: 2000,
+            });
+        } else{
+            emailjs.sendForm('service_xnetf2c', 'template_d9b3uug', form.current, 'eDYPKkkHpzrxJc33H')
             .then((result) => {
                 if(result.text ==="OK"){
                     e.target.reset()
@@ -17,7 +31,11 @@ const Contact = () => {
             }, (error) => {
                 console.log(error.text);
             });
+        }
+
     };
+    
+    
     return (
         <div
             name="contact"
@@ -37,21 +55,25 @@ const Contact = () => {
                         <input
                             type="text" name="name"
                             placeholder="Enter your name"
+                            onChange={handleChange}
                             className="p-2 bg-transparent text-white"
                         />
                         <input
                             type="email" name="email"
+                            onChange={handleChange}
                             placeholder="Enter your email"
                             className="my-4 p-2 bg-transparent"
                         />
                         <textarea
                             name="message"
                             placeholder="Enter your message"
+                            onChange={handleChange}
                             rows="10"
                             className="p-2 bg-transparent"
                         ></textarea>
-
-                        <button type="submit" className="mx-auto flex items-center talkBtn">
+                        <button 
+                        type="submit"
+                        className="mx-auto flex items-center talkBtn">
                             Let's talk
                         </button>
                     </form>

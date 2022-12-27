@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import '../Style/Navbar.css'
-import { FaTimes } from 'react-icons/fa';
 import { MdClose } from 'react-icons/md';
 import { BiMenuAltRight } from 'react-icons/bi';
 import { Link } from "react-scroll";
