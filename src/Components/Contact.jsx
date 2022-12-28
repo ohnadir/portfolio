@@ -14,7 +14,9 @@ const Contact = () => {
     const handleChange = (e)=>{
         setItem( (prev)=> ({...prev, [e.target.name]: e.target.value}))
     }
-    
+    if(!item){
+        document.getElementById("Button").disabled = true;
+    }
     const sendEmail = (e) => {
         e.preventDefault();
         if(!item.name || !item.email || !item.message){
@@ -69,6 +71,7 @@ const Contact = () => {
                             placeholder="Enter your message"
                             onChange={handleChange}
                             rows="10"
+                            
                             className="p-2 bg-transparent"
                         ></textarea>
                         <button 
