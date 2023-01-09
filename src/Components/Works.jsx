@@ -59,23 +59,23 @@ const Works = () => {
                         </div>
                         <div className='mt-10 relative md:hidden'>
                             <div className='w-full '>
-                                <img src={paralax} className="w-full overlayImg"  alt="" />
+                                <img src="https://res.cloudinary.com/ddqovbzxy/image/upload/v1673291931/Screenshot_49_pcy6um.png" className="w-full overlayImg"  alt="" />
                             </div>
                             <div className='overlayContainer'>
                                 <div>
                                     <div className=' px-6 header'>
                                         <p className='text-[#64ffda] mb-1'>Featured Project</p>
-                                        <h1 className='text-2xl'>Star Tech</h1>
+                                        <h1 className='text-[22px] text-[#d7dce2]'>Star Tech</h1>
                                     </div>
                                     <div className='px-6 py-3 sm:py-8'>
-                                        <p className=' text-[14px]'>
+                                        <p className=' text-[#B4C0DE] text-[14px]'>
                                             StarTech is a e-commerce web application that's user order their 
                                             filter product . User can payment uses cash on delivery or online 
                                             payment . In admin panel only admin can do CRUD on database 
                                         </p>
                                     </div>
                                     <div className='px-6  pb-2 ulList'>
-                                        <ul className='flex flex-wrap leading-[14px] gap-2  mb-2'>
+                                        <ul className='flex text-[#B4C0DE] text-[14px] flex-wrap leading-[14px] gap-2  mb-2'>
                                             <li>Redux</li>
                                             <li>Stripe</li>
                                             <li>Tailwind</li>
