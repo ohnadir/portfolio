@@ -1,0 +1,143 @@
+[
+    {   "id":"1",
+        "name" : "Star Tech",
+        "image" :"Assets/startech.png",
+        "description" : "StarTech is a e-commerce web application that's user order their filter product . User can payment uses cash on delivery or online payment . In admin panel only admin can do CRUD on database",
+        "technology":[
+            {
+                "id" :"1",
+                "name" :"Redux"
+            },
+            {
+                "id" :"2",
+                "name" :"Stripe"
+            },
+            {
+                "id" :"3",
+                "name" :"Tailwind"
+            },
+            {
+                "id" :"4",
+                "name" :"MongoDB"
+            },
+            {
+                "id" :"5",
+                "name" :"Node.js"
+            },
+            {
+                "id" :"6",
+                "name" :"JWT"
+            },
+            {
+                "id" :"7",
+                "name" :"Ant Design"
+            }
+        ],
+        "links" :[
+            {
+                "id": "1",
+                "icon" : "./Assets/github.svg",
+                "link": "https://github.com/ohnadir/startech"
+            },
+            {
+                "id": "2",
+                "icon" : "./Assets/link.svg",
+                "link": "https://startech-nu.vercel.app/"
+            }
+        ]
+    },
+    {   "id":"2",
+        "name" : "Airbnb",
+        "image" :"Assets/startech.png",
+        "description" : "StarTech is a e-commerce web application that's user order their filter product . User can payment uses cash on delivery or online payment . In admin panel only admin can do CRUD on database",
+        "technology":[
+            {
+                "id" :"1",
+                "name" :"Redux"
+            },
+            {
+                "id" :"2",
+                "name" :"Stripe"
+            },
+            {
+                "id" :"3",
+                "name" :"Tailwind"
+            },
+            {
+                "id" :"4",
+                "name" :"MongoDB"
+            },
+            {
+                "id" :"5",
+                "name" :"Node.js"
+            },
+            {
+                "id" :"6",
+                "name" :"JWT"
+            },
+            {
+                "id" :"7",
+                "name" :"Ant Design"
+            }
+        ],
+        "links" :[
+            {
+                "id": "1",
+                "icon" : "Assets/github.svg",
+                "link": "https://github.com/ohnadir/startech"
+            },
+            {
+                "id": "2",
+                "icon" : "Assets/link.svg",
+                "link": "https://startech-nu.vercel.app/"
+            }
+        ]
+    },
+    {   "id":"3",
+        "name" : "Fruits",
+        "image" :"Assets/startech.png",
+        "description" : "StarTech is a e-commerce web application that's user order their filter product . User can payment uses cash on delivery or online payment . In admin panel only admin can do CRUD on database",
+        "technology":[
+            {
+                "id" :"1",
+                "name" :"Redux"
+            },
+            {
+                "id" :"2",
+                "name" :"Stripe"
+            },
+            {
+                "id" :"3",
+                "name" :"Tailwind"
+            },
+            {
+                "id" :"4",
+                "name" :"MongoDB"
+            },
+            {
+                "id" :"5",
+                "name" :"Node.js"
+            },
+            {
+                "id" :"6",
+                "name" :"JWT"
+            },
+            {
+                "id" :"7",
+                "name" :"Ant Design"
+            }
+        ],
+        "links" :[
+            {
+                "id": "1",
+                "icon" : "./Assets/github.svg",
+                "link": "https://github.com/ohnadir/startech"
+            },
+            {
+                "id": "2",
+                "icon" : "./Assets/link.svg",
+                "link": "https://startech-nu.vercel.app/"
+            }
+        ]
+    }
+]
