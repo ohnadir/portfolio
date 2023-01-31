@@ -24,7 +24,7 @@ const About = () => {
                         </p>
                         <br />
                         <p className="">
-                            Fast-forward to today, and I’ve had the privilege of working at a software company, a start-up, a huge corporation, and a student-led design studio. 
+                            Fast-forward to today, and I’ve had the privilege of working at a software company, a start-up. 
                             My main focus these days is building accessible, inclusive products and 
                             digital experiences.
                         </p> <br />
@@ -41,7 +41,7 @@ const About = () => {
                                 <li>Socket.io</li>
                                 <li>TypeScript</li>
                                 <li>Next.js</li>
-                                <li>Passport.js</li>
+                                <li>0auth2</li>
                             </ul>
                         </div>
                     </div>

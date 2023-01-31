@@ -22,7 +22,7 @@ const Experience = () => {
 
                         <ul className='mt-5 criteria text-[#8892B0] text-[15px]'>
                             <li>Write modern, performant, maintainable code for a diverse array of client  and internal projects</li>
-                            <li>Work with a variety of different languages, platforms, frameworks, and  content management systems such as JavaScript, TypeScript, Gatsby,  React, ---- Craft, WordPress, Prismic, and Netlify</li>
+                            <li>Work with a variety of different languages, platforms, frameworks, and  content management systems such as JavaScript, TypeScript, Redux, Next.js etc.</li>
                             <li>Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis</li>
                         </ul>
                     </div>
