@@ -1,15 +1,17 @@
 # Welcome to my portfolio
  
- to see live the project(https://main--tahsan-portfolio.netlify.app/)
+ to see live the project(https://portfolio-nadirhossain.vercel.app/)
 
 ### use in this project
-##### 01.react js
-##### 02.tailwind css
-##### 03.google font
-##### 04.react icons
-##### 05.get from.io
-##### 01.react js
-##### 06.react-scroll 
+##### 01.React.js
+##### 02.Tailwindcss
+##### 03.Google Font
+##### 04.React Icons
+##### 05.Emailjs
+##### 06.Ant Design
+##### 07.React Scroll
+##### 08.React Slick Slider
+##### 09.React Toastify 
  
 
 
