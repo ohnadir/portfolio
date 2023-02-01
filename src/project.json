@@ -1,7 +1,8 @@
 [
-    {   "id":"1",
+    {   
+        "id":"1",
         "name" : "Star Tech",
-        "image" :"Assets/startech.png",
+        "image" :"https://res.cloudinary.com/ddqovbzxy/image/upload/v1673291931/Screenshot_49_pcy6um.png",
         "description" : "StarTech is a e-commerce web application that's user order their filter product . User can payment uses cash on delivery or online payment . In admin panel only admin can do CRUD on database",
         "technology":[
             {
@@ -34,69 +35,71 @@
             }
         ],
         "links" :[
-            {
-                "id": "1",
-                "icon" : "./Assets/github.svg",
-                "link": "https://github.com/ohnadir/startech"
-            },
-            {
-                "id": "2",
-                "icon" : "./Assets/link.svg",
-                "link": "https://startech-nu.vercel.app/"
-            }
+            "https://github.com/ohnadir/startech", 
+            "https://startech-nu.vercel.app/"
         ]
     },
-    {   "id":"2",
+    {   
+        "id":"2",
         "name" : "Airbnb",
-        "image" :"Assets/startech.png",
-        "description" : "StarTech is a e-commerce web application that's user order their filter product . User can payment uses cash on delivery or online payment . In admin panel only admin can do CRUD on database",
+        "image" :"https://res.cloudinary.com/ddqovbzxy/image/upload/v1675188832/airbnbProjectPhoto_gzdsqi.png",
+        "description" : "This Web application used for booking places world wide.",
         "technology":[
             {
                 "id" :"1",
-                "name" :"Redux"
+                "name" :"React.js"
             },
             {
                 "id" :"2",
-                "name" :"Stripe"
+                "name" :"React Date Range"
             },
             {
                 "id" :"3",
-                "name" :"Tailwind"
+                "name" :"Date fns"
             },
             {
                 "id" :"4",
-                "name" :"MongoDB"
+                "name" :"Redux"
             },
             {
                 "id" :"5",
-                "name" :"Node.js"
+                "name" :"React icons"
             },
             {
                 "id" :"6",
-                "name" :"JWT"
+                "name" :"Slick carousel"
             },
             {
                 "id" :"7",
                 "name" :"Ant Design"
+            },
+            {
+                "id" :"8",
+                "name" :"Node.js"
+            },
+            {
+                "id" :"9",
+                "name" :"MongoDB"
+            },
+            {
+                "id" :"10",
+                "name" :"Stripe"
+            },
+            {
+                "id" :"11",
+                "name" :"JWT"
             }
         ],
         "links" :[
-            {
-                "id": "1",
-                "icon" : "Assets/github.svg",
-                "link": "https://github.com/ohnadir/startech"
-            },
-            {
-                "id": "2",
-                "icon" : "Assets/link.svg",
-                "link": "https://startech-nu.vercel.app/"
-            }
+            "https://github.com/ohnadir/startech",
+            "https://startech-nu.vercel.app/"
         ]
     },
-    {   "id":"3",
+    {   
+        "id":"3",
         "name" : "Fruits",
-        "image" :"Assets/startech.png",
-        "description" : "StarTech is a e-commerce web application that's user order their filter product . User can payment uses cash on delivery or online payment . In admin panel only admin can do CRUD on database",
+        "image" :"https://res.cloudinary.com/ddqovbzxy/image/upload/v1675230830/fruitsProject_gp7dx7.png",
+        "description" : "Fruits is a e-commerce web application that's user order their filter product . User can payment uses cash on delivery or online payment . In admin panel only admin can do CRUD on database",
         "technology":[
             {
                 "id" :"1",
@@ -128,16 +131,8 @@
             }
         ],
         "links" :[
-            {
-                "id": "1",
-                "icon" : "./Assets/github.svg",
-                "link": "https://github.com/ohnadir/startech"
-            },
-            {
-                "id": "2",
-                "icon" : "./Assets/link.svg",
-                "link": "https://startech-nu.vercel.app/"
-            }
+            "https://github.com/ohnadir/fruits",
+            "https://startech-nu.vercel.app/"
         ]
     }
 ]
