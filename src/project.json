@@ -98,7 +98,7 @@
     {   
         "id":"3",
         "name" : "Fruits",
-        "image" :"https://res.cloudinary.com/ddqovbzxy/image/upload/v1675230830/fruitsProject_gp7dx7.png",
+        "image" :"https://res.cloudinary.com/ddqovbzxy/image/upload/v1675872131/fruitsProject_esry9v.png",
         "description" : "Fruits is a e-commerce web application that's user order their filter product . User can payment uses cash on delivery or online payment . In admin panel only admin can do CRUD on database",
         "technology":[
             {
@@ -132,7 +132,7 @@
         ],
         "links" :[
             "https://github.com/ohnadir/fruits",
-            "https://startech-nu.vercel.app/"
+            "https://fruits-ashy.vercel.app/"
         ]
     }
 ]
