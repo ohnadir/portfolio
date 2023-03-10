@@ -24,7 +24,7 @@ const Footer = () => {
         {
             id: 4,
             child: <BsFillPersonLinesFill size={20} />,
-            href: "/nadirResume2.pdf",
+            href: "/nadirhossainResume.pdf",
             download: true,
         },
     ];

@@ -52,7 +52,7 @@ const Navbar = () => {
                             </li>
                         ))}
                     </ul>
-                    <a href="/nadirResume2.pdf" target='_blank' download='nadirResume'>
+                    <a href="/nadirhossainResume.pdf" target='_blank' download='nadirhossainResume'>
                         <button className='resumeBtn mr-5'>Resume</button>
                     </a>
                 </div>
@@ -84,7 +84,7 @@ const Navbar = () => {
                                     </li>
                                 ))}
                             </ul>
-                            <a href="/nadirResume2.pdf" target='_blank' download='nadirResume'>
+                            <a href="/nadirhossainResume.pdf" target='_blank' download='nadirhossainResume'>
                                 <button className='resumeBtn '>Resume</button>
                             </a>
                         </div>

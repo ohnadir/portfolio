@@ -28,7 +28,7 @@ const SocialLinks = () => {
         {
             id: 4,
             child: <BiUser size={22} />,
-            href: "/nadirResume2.pdf",
+            href: "/nadirhossainResume.pdf",
             download: true,
         },
     ];
