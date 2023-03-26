@@ -36,9 +36,7 @@ const Navbar = () => {
     ]
     return (
         <div className='navbar  fixed w-full top-0  '>
-            <div className=' max-w-7xl mx-auto flex justify-between items-center h-20'>
-                
-                    
+            <div data-aos="fade-down" className=' max-w-7xl mx-auto flex justify-between items-center h-20'>
                 <div className='pl-5'>
                     <h1 className='logo m-0 p-0'>N</h1>
                 </div>

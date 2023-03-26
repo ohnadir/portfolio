@@ -12,8 +12,11 @@ import Footer from './Components/Footer';
 import 'antd/dist/reset.css';
 import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer } from 'react-toastify';
+import 'aos/dist/aos.css';
+import AOS from 'aos';
 
 function App() {
+  AOS.init({ duration : 2000});
   return (
     <div>
       <Navbar></Navbar>

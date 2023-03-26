@@ -36,17 +36,17 @@ const About = () => {
                         </p>
                         <div className=''>
                             <ul className='skills-list'>
-                                <li>JavaScript</li>
-                                <li>Redux</li>
-                                <li>Socket.io</li>
-                                <li>TypeScript</li>
-                                <li>Next.js</li>
-                                <li>0auth2</li>
+                                <li data-aos="fade-left">JavaScript</li>
+                                <li data-aos="fade-left">Redux</li>
+                                <li data-aos="fade-left">Socket.io</li>
+                                <li data-aos="fade-left">TypeScript</li>
+                                <li data-aos="fade-left">Next.js</li>
+                                <li data-aos="fade-left">0auth2</li>
                             </ul>
                         </div>
                     </div>
-                    <div className='w-[40%] mb-8 md:mb-0 h-fit relative flex mx-auto flex-col gap-10'>
-                        <img src={nadir} className="z-10" alt="" />
+                    <div  className='w-[40%] mb-8 md:mb-0 h-fit relative flex mx-auto flex-col gap-10'>
+                        <img data-aos="fade-down"  src={nadir} className="z-10" alt="" />
                         <div className='borderOverlay'>
                         </div>
                     </div>

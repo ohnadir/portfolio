@@ -3,9 +3,9 @@ import '../Style/Experience.css'
 
 const Experience = () => {
   return (
-    <div className='experience'>
+    <div className='experience' >
         <div className='max-w-screen-md  lg:max-w-screen-lg px-5 sm:px-12  pb-16 pt-28 md:py-0 mx-auto flex text-white  items-center md:h-screen'>
-            <div>
+            <div data-aos="flip-up">
                 <div className='flex gap-2 mb-10 items-center'>
                     <span className='text-[#5FF1D0] text-[24px]'>02.</span>
                     <h1 className='text-[24px] text-[#ccd6f6] m-0'>Where I've Worked</h1>

@@ -16,11 +16,11 @@ const Works = () => {
                         project.map((project)=> 
                             <div className='project'>
                                 <div style={{flexDirection : project.id === "2"  ? "row-reverse" : ""}} className="md:flex relative items-center hidden">
-                                    <div className='w-[60%] relative'>
+                                    <div data-aos="fade-right" className='w-[60%] relative'>
                                         <img src={project.image} className='w' alt="" />
                                         <div className='overlay'></div>
                                     </div>
-                                    <div style={{left : project.id === "2"  ? "0" : ""}} className='w-[60%] z-10 absolute right-0'>
+                                    <div data-aos="fade-left" style={{left : project.id === "2"  ? "0" : ""}} className='w-[60%] z-10 absolute right-0'>
                                         <div style={{textAlign : project.id === "2"  ? "left" : "right"}}>
                                             <p className='text-[#64ffda] mb-1 text-[15px]'>Featured Project</p>
                                             <h1 className='text-[22px] text-[#d7dce2]'> {project.name}</h1>
