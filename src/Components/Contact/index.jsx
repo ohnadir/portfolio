@@ -47,7 +47,7 @@ const Contact = () => {
                 <h1 className='heading'>Get in touch</h1>
 
                 <div className="form md:flex flex-col lg:flex-row  gap-10 w-full">
-                    <div className='border border-[#8892B0] w-[50%] hidden md:block p-5 mx-auto'>
+                    <div className='border border-[#8892B0] rounded-[6px] w-[50%] hidden md:block p-5 mx-auto'>
                         <img className='max-w-[50%] rounded-[10px] mx-auto' src={Nadir} alt="" />
                         <h1 className='text-[#8892B0] text-2xl font-semibold mt-3'>Nadir Hossain</h1>
                         <h2 className='text-[#8892B0] text-lg font-semibold'>Frontend Developer</h2>

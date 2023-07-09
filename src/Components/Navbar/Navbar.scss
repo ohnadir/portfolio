@@ -3,26 +3,39 @@
 .navbar{
     background-color: rgba(16, 30, 52, 0.9);
     z-index: 11;
-
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+    .navbar-container{
+        max-width: 768px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 80px;
+        .logo{
+            color: #00abf0;
+            font-weight: 700;
+            font-size: 18px;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .nav-links{
+            padding: 0 16px;
+            cursor: pointer;
+            font-size: 14px;
+            color: #ccd6f6;
+            font-weight: 400;
+            transition: color 0.3s ease;
+            &:hover{
+                color: #00abf0;
+            }
+        }
+    }
 }
-
-.logo{
-    color: #00abf0;
-    font-weight: 700;
-    font-size: 18px;
-    height: 40px;
-    width: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    /* border: 2px solid #00abf0; */
-    border-radius: 50%;
-    cursor: pointer;
-    backdrop-filter: blur(10px);
-    transition: all 0.3s ease;
-}
-.resumeBtn{
+.resume-btn{
     color: #00abf0;
     background-color: transparent;
     border: 1px solid #00abf0;
@@ -33,36 +46,30 @@
     text-decoration: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    &:hover{
+        background-color: rgba(100, 255, 218, 0.1);
+    }
 }
-.logo:hover, .resumeBtn:hover{
-    background-color: rgba(100, 255, 218, 0.1);
-}
-.navLinks{
-    padding: 0 16px;
-    cursor: pointer;
-    font-size: 14px;
-    color: #ccd6f6;
-    font-weight: 400;
-    transition: color 0.3s ease;
-}
-.navLinks:focus{
-    color: #00abf0;
-}
-
-.navLinks:hover{
-    color: #00abf0;
-}
-.mobile .navLinks::before{
-    content: "0" counter(item) ".";
-    color: #64ffda;
-    display: block;
-    font-size: 17px;
-    text-align: center;
-}
-.mobileLinks{
+.mobile-links{
     font-size: 20px;
     color: #ccd6f6;
+    &:hover{
+        color: #00abf0;
+    }
 }
-.mobileLinks:hover{
-    color: #64ffda;
+
+
+@media screen  and ( min-width: 1024px) {
+    .navbar{
+        .navbar-container{
+            max-width: 1024px;
+        }
+    }
+}
+@media screen  and ( max-width: 1073px) {
+    .navbar{
+        .navbar-container{
+            padding: 0 15px;
+        }
+    }
 }

@@ -21,11 +21,11 @@ const Navbar = () => {
         },
         {
             id: 3,
-            link: 'works'
+            link: 'experience'
         },
         {
             id: 4,
-            link: 'experience'
+            link: 'works'
         },
         {
             id: 5,
@@ -51,15 +51,13 @@ const Navbar = () => {
         }
     }, []);
     return (
-        <div className='navbar  fixed w-full top-0'>
-            <div data-aos="fade-down" className=' max-w-7xl mx-auto flex justify-between items-center h-20'>
-                <div className='pl-5'>
-                    <h1 className='logo m-0 p-0'>NADIR</h1>
-                </div>
+        <div className='navbar'>
+            <div data-aos="fade-down" className='navbar-container'>
+                <h1 className='logo'>NADIR</h1>
                 <div className='hidden md:flex items-center justify-center gap-4'>
                     <ul className='flex items-center mb-0'>
                         {links.map(({ id, link }) => (
-                            <li onClick={()=>setColor(id)} key={id} style={{color : id === color ? "#00abf0" : null}} className='navLinks capitalize duration-200'>
+                            <li onClick={()=>setColor(id)} tabIndex={id} key={id} className='nav-links capitalize'>
                                 <Link to={link} smooth duration={500}>
                                     {link}
                                 </Link>
@@ -69,13 +67,13 @@ const Navbar = () => {
                     {
                         show &&
                         <a href="/nadirhossainResume.pdf" target='_blank' download='nadirhossainResume'>
-                            <button className='resumeBtn mr-5'>Resume</button>
+                            <button className='resume-btn'>Resume</button>
                         </a>
                     }
                 </div>
                 
                 <div onClick={() => setOpen(true)} className='cursor-pointer pr-4 z-10 m-0 text-gray-500 md:hidden'>
-                    <BiMenuAltRight className='text-[#64ffda]' size={35} />
+                    <BiMenuAltRight className='text-[#00abf0]' size={35} />
                 </div>
             </div>
             <Drawer 
@@ -86,29 +84,26 @@ const Navbar = () => {
                 onClose={()=>setOpen(false)} open={open}>
                     <div className=' h-screen flex bg-[#101E34]  items-center justify-center '>
                         <div>
-                            
-                        
-                        <div className=' flex items-center text-[#64ffda] justify-end absolute top-8 right-8 '>
-                            <MdClose className='cursor-pointer' onClick={() => setOpen(false)} size={35} />
-                        </div>
-                        <div className='flex flex-col mobile items-center justify-center gap-4'>
-                            <ul className='flex flex-col items-center mb-0'>
-                                {links.map(({ id, link }) => (
-                                    <li key={id} className='navLinks my-5  capitalize duration-200'>
-                                        <Link  to={link} className="mobileLinks" smooth duration={500}>
-                                            {link}
-                                        </Link>
-                                    </li>
-                                ))}
-                            </ul>
-                            <a href="/nadirhossainResume.pdf" target='_blank' download='nadirhossainResume'>
-                                <button className='resumeBtn '>Resume</button>
-                            </a>
-                        </div>
+                            <div className=' flex items-center text-[#00abf0] justify-end absolute top-8 right-8 '>
+                                <MdClose className='cursor-pointer' onClick={() => setOpen(false)} size={35} />
+                            </div>
+                            <div className='flex flex-col mobile items-center justify-center gap-4'>
+                                <ul className='flex flex-col items-center mb-0'>
+                                    {links.map(({ id, link }) => (
+                                        <li key={id} className='navLinks my-5  capitalize duration-200'>
+                                            <Link  to={link} className="mobile-links" smooth duration={500}>
+                                                {link}
+                                            </Link>
+                                        </li>
+                                    ))}
+                                </ul>
+                                <a href="/nadirhossainResume.pdf" target='_blank' download='nadirhossainResume'>
+                                    <button className='resume-btn'>Resume</button>
+                                </a>
+                            </div>
                         </div>
                     </div>
             </Drawer>
-
         </div>
 
     );
