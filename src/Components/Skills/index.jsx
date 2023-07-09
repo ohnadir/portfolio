@@ -1,20 +1,18 @@
-import React from 'react';
-import html from '../Assets/Experience/html.png';
-import css from '../Assets/Experience/css.png';
-import javascript from '../Assets/Experience/javascript.png';
-import reactImage from '../Assets/Experience/react.png';
-import nextjs from '../Assets/Experience/nextjs.png';
-import graphql from '../Assets/Experience/graphql.png';
-import github from '../Assets/Experience/github.png';
-import tailwind from '../Assets/Experience/tailwind.png';
-import node from '../Assets/Experience/node.js.png';
-import mongodb from '../Assets/Experience/mongodb.png';
-import express from '../Assets/Experience/express.png';
-import jwt from '../Assets/Experience/jwt.png';
-import redux from '../Assets/Experience/redux.png';
-import firebase from '../Assets/Experience/firebase.png';
-import angular from '../Assets/Experience/angular.png';
-import '../Style/Skills.css';
+import html from '../../Assets/Experience/html.png';
+import css from '../../Assets/Experience/css.png';
+import javascript from '../../Assets/Experience/javascript.png';
+import reactImage from '../../Assets/Experience/react.png';
+import nextjs from '../../Assets/Experience/nextjs.png';
+import graphql from '../../Assets/Experience/graphql.png';
+import github from '../../Assets/Experience/github.png';
+import tailwind from '../../Assets/Experience/tailwind.png';
+import node from '../../Assets/Experience/node.js.png';
+import mongodb from '../../Assets/Experience/mongodb.png';
+import express from '../../Assets/Experience/express.png';
+import jwt from '../../Assets/Experience/jwt.png';
+import redux from '../../Assets/Experience/redux.png';
+import firebase from '../../Assets/Experience/firebase.png';
+import angular from '../../Assets/Experience/angular.png';
 import Slider from "react-slick";
 
 
@@ -137,14 +135,10 @@ const Experience = () => {
       };
 
     return (
-        <div name="skills" className="skills pt-28">
-            <div className="max-w-screen-md   lg:max-w-screen-lg px-5 sm:px-12   mx-auto text-white">
-                <div className=''>
-                    <div className='flex gap-2 items-center'>
-                        <span className='text-[#5FF1D0] text-[24px]'>04.</span>
-                        <h1 className='text-[24px] text-[#ccd6f6] m-0'>Skills</h1>
-                    </div>
-
+        <div name="skills" className="skills-container pt-28">
+            <div className="max-w-screen-md   lg:max-w-screen-lg px-[15px] md:px-0   mx-auto text-white">
+                <div>
+                    <h1 className='text-[24px] text-[#ccd6f6] m-0'>Skills</h1>
                     <div className="overflow-x-hidden py-20">
                         <Slider {...settings}>
                             {techs.map(({ id, src, title, style }) => (

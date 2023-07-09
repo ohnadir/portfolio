@@ -1,9 +1,9 @@
 import About from './Components/About';
 import Contact from './Components/Contact';
 import Skills from './Components/Skills';
-import Home from './Components/Home/Home';
+import Header from './Components/Header';
 import Navbar from './Components/Navbar';
-import Works from './Components/Works';
+import Projects from './Components/Projects';
 import SocialLinks from './Components/SocialLInks/SocialLinks';
 import Experience from './Components/Experience';
 import "slick-carousel/slick/slick.css"; 
@@ -14,16 +14,17 @@ import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer } from 'react-toastify';
 import 'aos/dist/aos.css';
 import AOS from 'aos';
+import 'animate.css';
 
 function App() {
   AOS.init({ duration : 2000});
   return (
-    <div>
+    <div className='bg-[#101E34]'>
       <Navbar></Navbar>
-      <Home></Home>
+      <Header></Header>
       <About></About>
       <Experience/>
-      <Works></Works>
+      <Projects/>
       <Skills></Skills>
       <Contact></Contact>
       <SocialLinks></SocialLinks>

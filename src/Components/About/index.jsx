@@ -1,20 +1,20 @@
 import React from 'react';
-import '../Style/About.css';
-import nadir from '../Assets/Experience/nadir.jpg'
+import './About.scss';
+import nadir from '../../Assets/Experience/nadir.jpg'
 const About = () => {
-
     return (
-        
-        <div name="about" className="about w-full  md:h-screen pb-16 pt-28 md:py-0  text-white">
-            
-            <div className="max-w-screen-md  lg:max-w-screen-lg px-5 sm:px-12  mx-auto flex flex-col justify-center w-full h-full">
-                <div className='flex gap-2 mb-10 items-center'>
-                    <span className='text-[#5FF1D0] text-[24px]'>01.</span>
+        <div name="about" className="about about-container">
+            <div className="flex flex-col">
+                <div className='mb-10 '>
                     <h1 className='text-[24px] text-[#ccd6f6] m-0'>About me</h1>
                 </div>
-                <div className='flex flex-col-reverse md:flex-row gap-10'>
-                    <div className='w-full md:w-[60%]'>
-                        <p className="">
+                <div className='flex flex-col lg:flex-row justify-between gap-20 lg:gap-0'>
+                    <div  className='w-[30%] mb-8 md:mb-0 h-fit relative mx-auto lg:mx-0 flex flex-col gap-10'>
+                        <img data-aos="fade-down"  src={nadir} className="z-10" alt="" />
+                        <div className='border-overlay'></div>
+                    </div>
+                    <div className='w-full lg:w-[60%]'>
+                        <p>
                             Hello! My name is Nadir and 
                             I enjoy creating things that live on the internet. 
                             My interest in web development started back in 2020 
@@ -23,8 +23,8 @@ const About = () => {
                             HTML, JS & CSS!
                         </p>
                         <br />
-                        <p className="">
-                            Fast-forward to today, and I’ve had the privilege of working at a software company, a start-up. 
+                        <p>
+                            Fast-forward to today, and I&apos;ve had the privilege of working at a software company, a start-up. 
                             My main focus these days is building accessible, inclusive products and 
                             digital experiences.
                         </p> <br />
@@ -34,9 +34,9 @@ const About = () => {
                         <p>
                             Here are a few technologies I've been working with recently:
                         </p>
-                        <div className=''>
+                        <div>
                             <ul className='skills-list'>
-                                <li data-aos="fade-left">JavaScript</li>
+                                <li data-aos="fade-left">DSA & OOP</li>
                                 <li data-aos="fade-left">Redux</li>
                                 <li data-aos="fade-left">Socket.io</li>
                                 <li data-aos="fade-left">TypeScript</li>
@@ -45,15 +45,8 @@ const About = () => {
                             </ul>
                         </div>
                     </div>
-                    <div  className='w-[40%] mb-8 md:mb-0 h-fit relative flex mx-auto flex-col gap-10'>
-                        <img data-aos="fade-down"  src={nadir} className="z-10" alt="" />
-                        <div className='borderOverlay'>
-                        </div>
-                    </div>
                 </div>
-
             </div>
-
         </div>
     );
 };

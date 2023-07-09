@@ -6,7 +6,7 @@ import { FaFacebookF } from "react-icons/fa";
 import { GrLinkedinOption } from "react-icons/gr";
 import { TbBrandGithub } from "react-icons/tb";
 import { BiUser } from "react-icons/bi";
-import '../../Style/SocialLinks.css';
+import './SocialLinks.scss';
 const SocialLinks = () => {
     const [open, setOpen] = useState(false)
     const links = [

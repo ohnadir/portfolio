@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import '../Style/Navbar.css'
+import React, { useEffect, useState } from 'react';
+import './Navbar.scss'
 import { MdClose } from 'react-icons/md';
 import { BiMenuAltRight } from 'react-icons/bi';
 import { Link } from "react-scroll";
@@ -7,6 +7,8 @@ import { Drawer } from 'antd';
 
 const Navbar = () => {
     const [open, setOpen] = useState(false);
+    const [color, setColor] = useState('')
+    const [show, setShow] = useState(false);
 
     const links = [
         {
@@ -34,25 +36,42 @@ const Navbar = () => {
             link: 'contact'
         }
     ]
+    
+    const controlNavbar = () => {
+        if (window.scrollY > 550) {
+            setShow(true)
+          } else {
+            setShow(false)
+          }
+    }
+    useEffect(() => {
+        window.addEventListener('scroll', controlNavbar)
+        return () => {
+            window.removeEventListener('scroll', controlNavbar)
+        }
+    }, []);
     return (
-        <div className='navbar  fixed w-full top-0  '>
+        <div className='navbar  fixed w-full top-0'>
             <div data-aos="fade-down" className=' max-w-7xl mx-auto flex justify-between items-center h-20'>
                 <div className='pl-5'>
-                    <h1 className='logo m-0 p-0'>N</h1>
+                    <h1 className='logo m-0 p-0'>NADIR</h1>
                 </div>
                 <div className='hidden md:flex items-center justify-center gap-4'>
                     <ul className='flex items-center mb-0'>
                         {links.map(({ id, link }) => (
-                            <li key={id} className='navLinks capitalize duration-200'>
+                            <li onClick={()=>setColor(id)} key={id} style={{color : id === color ? "#00abf0" : null}} className='navLinks capitalize duration-200'>
                                 <Link to={link} smooth duration={500}>
                                     {link}
                                 </Link>
                             </li>
                         ))}
                     </ul>
-                    <a href="/nadirhossainResume.pdf" target='_blank' download='nadirhossainResume'>
-                        <button className='resumeBtn mr-5'>Resume</button>
-                    </a>
+                    {
+                        show &&
+                        <a href="/nadirhossainResume.pdf" target='_blank' download='nadirhossainResume'>
+                            <button className='resumeBtn mr-5'>Resume</button>
+                        </a>
+                    }
                 </div>
                 
                 <div onClick={() => setOpen(true)} className='cursor-pointer pr-4 z-10 m-0 text-gray-500 md:hidden'>

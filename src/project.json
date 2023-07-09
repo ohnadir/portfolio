@@ -91,14 +91,14 @@
             }
         ],
         "links" :[
-            "https://github.com/ohnadir/airbnb",
-            "https://airbnb-git-main-nadirhossain.vercel.app/"
+            "https://github.com/ohnadir/airbnb5",
+            "https://airbnb5-nu.vercel.app/"
         ]
     },
     {   
         "id":"3",
         "name" : "Fruits",
-        "image" :"https://res.cloudinary.com/ddqovbzxy/image/upload/v1675872131/fruitsProject_esry9v.png",
+        "image" :"https://res.cloudinary.com/ddqovbzxy/image/upload/v1688623533/Screenshot_22_hjzppo.jpg",
         "description" : "Fruits is a e-commerce web application that's user order their filter product . User can payment uses cash on delivery or online payment . In admin panel only admin can do CRUD on database",
         "technology":[
             {
@@ -132,7 +132,7 @@
         ],
         "links" :[
             "https://github.com/ohnadir/fruits",
-            "https://fruits-ashy.vercel.app/"
+            "https://bazar-smoky.vercel.app/"
         ]
     }
 ]

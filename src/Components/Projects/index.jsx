@@ -1,20 +1,16 @@
 import React from 'react';
-import '../Style/Works.css';
-import project from '../project.json';
+import './Projects.scss';
+import project from '../../project.json';
 
-const Works = () => {
+const Projects = () => {
     return (
-        <div name="works" className="worksSection pt-28 overflow-hidden">
-            <div className="max-w-screen-md lg:max-w-screen-lg  mx-auto px-5 sm:px-12">
-                <div className='flex gap-2 mb-10 items-center'>
-                    <span className='text-[#5FF1D0] text-[24px]'>03.</span>
-                    <h1 className='text-[24px] text-[#ccd6f6] m-0'>Some Things I've Built</h1>
-                </div>
-
-                <div className="grid grid-cols-1 md:gap-[150px] pb-[50px]">
+        <div name="works" className="projects-container">
+            <div>
+                <h1 className='heading'>Some Things I've Built</h1>
+                <div className="projects">
                     {
                         project.map((project)=> 
-                            <div className='project'>
+                            <div className='hidden md:block'>
                                 <div style={{flexDirection : project.id === "2"  ? "row-reverse" : ""}} className="md:flex relative items-center hidden">
                                     <div data-aos="fade-right" className='w-[60%] relative'>
                                         <img src={project.image} className='w' alt="" />
@@ -22,7 +18,7 @@ const Works = () => {
                                     </div>
                                     <div data-aos="fade-left" style={{left : project.id === "2"  ? "0" : ""}} className='w-[60%] z-10 absolute right-0'>
                                         <div style={{textAlign : project.id === "2"  ? "left" : "right"}}>
-                                            <p className='text-[#64ffda] mb-1 text-[15px]'>Featured Project</p>
+                                            <p className='text-[#00abf0] mb-1 text-[15px]'>Featured Project</p>
                                             <h1 className='text-[22px] text-[#d7dce2]'> {project.name}</h1>
                                         </div>
                                         <div className='bg-[#112240] p-6 my-5'>
@@ -56,20 +52,20 @@ const Works = () => {
                     }
                     {
                        project.map((project)=>
-                            <div className='mt-10 relative md:hidden'>
+                            <div className='relative md:hidden'>
                                 <div className='w-full '>
                                     <img src={project.image} className="w-full overlayImg"  alt={project.name} />
                                 </div>
                                 <div className='overlayContainer'>
                                     <div>
                                         <div className=' px-6 header'>
-                                            <p className='text-[#64ffda] mb-1'>Featured Project</p>
+                                            <p className='text-[#00abf0] mb-1'>Featured Project</p>
                                             <h1 className='text-[22px] text-[#d7dce2]'>{project.name}</h1>
                                         </div>
-                                        <div className='px-6 py-3 sm:py-8'>
+                                        <div className='px-6 py-1'>
                                             <p className=' text-[#B4C0DE] text-[14px]'>{project.description}</p>
                                         </div>
-                                        <div className='px-6  pb-2 ulList'>
+                                        <div className='px-6  pb-2 ul-list'>
                                             <ul className='flex text-[#B4C0DE] text-[14px] flex-wrap leading-[14px] gap-2  mb-2'>
                                                 {
                                                     project.technology.map((item)=>
@@ -96,10 +92,10 @@ const Works = () => {
                        ) 
                     }
                 </div>
-                <div className='seeMoreBtn pb-[100px]'>See more</div>
+                <div className='more-btn pb-[100px]'>See more</div>
             </div>
         </div>
     );
 };
 
-export default Works;
+export default Projects;

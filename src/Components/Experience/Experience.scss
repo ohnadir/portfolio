@@ -1,0 +1,32 @@
+.experience-container{
+    max-width: 768px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    li{
+        position: relative;
+        padding: 10px 0;
+        padding-left: 30px;
+        &::before{
+            content: '▹' ;
+            position: absolute;
+            left: 0;
+            top: 15px;
+            color: #5FF1D0;
+            font-size: 19px;
+            line-height: 12px;
+        }
+    }
+}
+@media screen  and ( min-width: 1024px) {
+    .experience-container{
+        max-width: 1024px;
+    }
+}
+@media screen  and ( max-width: 1073px) {
+    .experience-container{
+        padding: 0 15px;
+    }
+}
