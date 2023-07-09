@@ -4,8 +4,8 @@ import project from '../../project.json';
 
 const Projects = () => {
     return (
-        <div name="works" className="projects-container">
-            <div>
+        <div name="works" className="projects-container ">
+            <div className='mt-[120px] lg:mt-0'>
                 <h1 className='heading'>Some Things I've Built</h1>
                 <div className="projects">
                     {

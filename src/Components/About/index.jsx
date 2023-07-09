@@ -3,8 +3,8 @@ import './About.scss';
 import nadir from '../../Assets/Experience/nadir.jpg'
 const About = () => {
     return (
-        <div name="about" className="about about-container">
-            <div className="flex flex-col">
+        <div name="about" className="about-container">
+            <div className="flex flex-col overflow-hidden">
                 <div className='mb-10 '>
                     <h1 className='text-[24px] text-[#ccd6f6] m-0'>About me</h1>
                 </div>

@@ -19,7 +19,7 @@ import 'animate.css';
 function App() {
   AOS.init({ duration : 2000});
   return (
-    <div className='bg-[#101E34]'>
+    <div className='bg-[#101E34] overflow-x-hidden' >
       <Navbar></Navbar>
       <Header></Header>
       <About></About>
@@ -27,7 +27,6 @@ function App() {
       <Projects/>
       <Skills></Skills>
       <Contact></Contact>
-      <SocialLinks></SocialLinks>
       <Footer/>
       <ToastContainer/>
     </div>
